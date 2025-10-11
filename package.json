@@ -1,5 +1,5 @@
 {
-  "name": "local-development",
+  "name": "local-dev",
   "type": "module",
   "version": "0.1.1",
   "description": "All the development dependencies you need.",

@@ -6,7 +6,7 @@
 <!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
 <!-- [![Codecov][codecov-src]][codecov-href] -->
 
-# local-development
+# local-dev
 
 This is a collection of development dependencies you may use to kick-start your next JS/TS package.
 
@@ -24,8 +24,8 @@ This is a collection of development dependencies you may use to kick-start your 
 ## Installation
 
 ```bash
-bun add local-development
-npm install local-development
+bun add local-dev
+npm install local-dev
 ```
 
 And this sets up your project!
