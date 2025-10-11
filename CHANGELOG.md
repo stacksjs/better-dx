@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/development/compare/v0.1.1...v0.1.2)
+
+### 🧹 Chores
+
+- release v0.1.2 ([f1b52aa](https://github.com/stacksjs/development/commit/f1b52aa))
+- wip ([c1f5a11](https://github.com/stacksjs/development/commit/c1f5a11))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
+[Compare changes](https://github.com/stacksjs/development/compare/v0.1.1...HEAD)
+
+### 🧹 Chores
+
+- wip ([c1f5a11](https://github.com/stacksjs/development/commit/c1f5a11))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 [Compare changes](https://github.com/stacksjs/development/compare/v0.1.0...v0.1.1)
 
 ### 🧹 Chores
