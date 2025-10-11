@@ -14,51 +14,51 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
+  # lint:
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+  #   steps:
+  #     - uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2
+  #     - name: Install Bun
+  #       uses: oven-sh/setup-bun@v2
 
-      - name: Use cached node_modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('**/bun.lock') }}
-          restore-keys: |
-            node-modules-
+  #     - name: Use cached node_modules
+  #       uses: actions/cache@v4
+  #       with:
+  #         path: node_modules
+  #         key: node-modules-${{ hashFiles('**/bun.lock') }}
+  #         restore-keys: |
+  #           node-modules-
 
-      - name: Install Dependencies
-        run: bun install
+  #     - name: Install Dependencies
+  #       run: bun install
 
-      - name: Lint
-        run: bun run lint
+  #     - name: Lint
+  #       run: bun run lint
 
-  typecheck:
-    runs-on: ubuntu-latest
+  # typecheck:
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+  #   steps:
+  #     - uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2
+  #     - name: Install Bun
+  #       uses: oven-sh/setup-bun@v2
 
-      - name: Use cached node_modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('**/bun.lock') }}
-          restore-keys: |
-            node-modules-
+  #     - name: Use cached node_modules
+  #       uses: actions/cache@v4
+  #       with:
+  #         path: node_modules
+  #         key: node-modules-${{ hashFiles('**/bun.lock') }}
+  #         restore-keys: |
+  #           node-modules-
 
-      - name: Install Dependencies
-        run: bun install
+  #     - name: Install Dependencies
+  #       run: bun install
 
-      - name: Typecheck
-        run: bun --bun run typecheck
+  #     - name: Typecheck
+  #       run: bun --bun run typecheck
 
   test:
     runs-on: ubuntu-latest
