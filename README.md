@@ -6,7 +6,7 @@
 <!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
 <!-- [![Codecov][codecov-src]][codecov-href] -->
 
-# local-dev
+# better-dx
 
 This is a collection of development dependencies you may use to kick-start your next JS/TS package.
 
@@ -24,8 +24,8 @@ This is a collection of development dependencies you may use to kick-start your 
 ## Installation
 
 ```bash
-bun add local-dev
-npm install local-dev
+bun add better-dx
+npm install better-dx
 ```
 
 And this sets up your project!
