@@ -1,7 +1,7 @@
 {
   "name": "local-development",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All the development dependencies you need.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
