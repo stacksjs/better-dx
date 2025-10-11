@@ -1,7 +1,7 @@
 {
-  "name": "@stacksjs/development",
+  "name": "better-dx",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.3",
   "description": "All the development dependencies you need.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
@@ -13,22 +13,31 @@
   "bugs": {
     "url": "https://github.com/stacksjs/development/issues"
   },
-  "keywords": ["typescript", "development", "kit", "bun", "package"],
+  "keywords": [
+    "typescript",
+    "development",
+    "kit",
+    "bun",
+    "package"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/src/index.js"
     },
     "./*": {
       "import": "./dist/*"
     }
   },
-  "module": "./dist/index.js",
+  "module": "./dist/src/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
     "bin-name": "./dist/bin/cli.js"
   },
-  "files": ["README.md", "dist"],
+  "files": [
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "build": "bun --bun build.ts && bun run compile",
     "compile": "bun build ./bin/cli.ts --compile --minify --outfile bin/dx",
@@ -52,7 +61,7 @@
     "lint:fix": "bunx --bun eslint . --fix",
     "changelog": "bunx logsmith --verbose",
     "changelog:generate": "bunx logsmith --output CHANGELOG.md",
-    "release": "bun run changelog:generate && bunx bumpx prompt --recursive",
+    "release": "bun run changelog:generate && bunx --bun bumpx prompt --recursive",
     "dev:docs": "bun --bun vitepress dev docs",
     "build:docs": "bun --bun vitepress build docs",
     "preview:docs": "bun --bun vitepress preview docs",
