@@ -4,6 +4,7 @@ booleanish
 bumpp
 bumpx
 bunfig
+bunpress
 bunx
 changelogen
 changelogithub
