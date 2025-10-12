@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.3...v0.1.4)
+
+### 🧹 Chores
+
+- release v0.1.4 ([701f770](https://github.com/stacksjs/better-dx/commit/701f770))
+- wip ([9e17a75](https://github.com/stacksjs/better-dx/commit/9e17a75))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.3...HEAD)
+
+### 🧹 Chores
+
+- wip ([9e17a75](https://github.com/stacksjs/better-dx/commit/9e17a75))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 [Compare changes](https://github.com/stacksjs/development/compare/v0.1.2...v0.1.3)
 
 ### 🧹 Chores
