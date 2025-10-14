@@ -69,7 +69,7 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "peerDependencies": {
-    "@stacksjs/bumpx": "^0.2.1",
+    "@stacksjs/bumpx": "^0.2.2",
     "@stacksjs/bunpress": "^0.0.5",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.18",
