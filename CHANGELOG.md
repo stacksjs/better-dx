@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.4...v0.1.5)
+
+### 🧹 Chores
+
+- release v0.1.5 ([3d7fa20](https://github.com/stacksjs/better-dx/commit/3d7fa20))
+- update deps ([7a06bf4](https://github.com/stacksjs/better-dx/commit/7a06bf4))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.4...HEAD)
+
+### 🧹 Chores
+
+- update deps ([7a06bf4](https://github.com/stacksjs/better-dx/commit/7a06bf4))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.3...v0.1.4)
 
 ### 🧹 Chores
