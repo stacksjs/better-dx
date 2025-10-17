@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "better-dx",
+      "devDependencies": {
+        "@stacksjs/clarity": "^0.3.24",
+      },
       "peerDependencies": {
         "@stacksjs/bumpx": "^0.2.2",
         "@stacksjs/bunpress": "^0.0.5",
@@ -28,6 +31,8 @@
     "@stacksjs/bunpress": ["@stacksjs/bunpress@0.0.5", "", { "bin": { "bunpress": "dist/bin/cli.js" } }, "sha512-2R3bcaxh9TE3pvBluc8/hwVLvcRxi61VoGJxOYAZjM7RR+w9oIbg8nwm68aSdy4X1qTy0Hhgw2jLnLeMaQMevg=="],
 
     "@stacksjs/clapp": ["@stacksjs/clapp@0.1.18", "", { "dependencies": { "mri": "^1.2.0", "wrap-ansi": "^9.0.0" }, "bin": { "clapp": "dist/bin/cli.js", "@stacksjs/clapp": "dist/bin/cli.js" } }, "sha512-i9Yx47IXR/8CFhvztTIEuWNt1FME56KttZlKLI0RStvMCdZPFjeZW1E+8PHYMvwAnNz1ezLWUnLynqcf1vHj4Q=="],
+
+    "@stacksjs/clarity": ["@stacksjs/clarity@0.3.24", "", { "bin": { "clarity": "dist/bin/cli.js" } }, "sha512-QN21fT/9dovcuFTkni9LFHDzBpiBZ4Q//0a3vFJsckPiblNIu1RhwwePkkTK4j6Xu2DtVYGR60/9Scdrp6wRfw=="],
 
     "@stacksjs/dtsx": ["@stacksjs/dtsx@0.9.4", "", { "bin": { "dtsx": "dist/bin/cli.js" } }, "sha512-nvAnS/xtYfFTStFfKJXvnzv6IJSUvY4c/o7RltUvnQqIVyZjHX3a0R0Gp2J5m7gkYO+6sneQs1WcY7e9NQyAsg=="],
 

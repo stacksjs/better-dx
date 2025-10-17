@@ -1,3 +1,14 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.5...v0.1.7)
+
+### 🧹 Chores
+
+- release v0.1.7 ([1d0bb57](https://github.com/stacksjs/better-dx/commit/1d0bb57))
+- add clarity ([22d6530](https://github.com/stacksjs/better-dx/commit/22d6530))
+
+### Contributors
+
+- cab-mikee <mike.cabz32@gmail.com>
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.4...v0.1.5)
 
 ### 🧹 Chores
