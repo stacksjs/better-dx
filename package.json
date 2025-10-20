@@ -80,6 +80,7 @@
     "bun-plugin-dtsx": "0.9.5",
     "bunfig": "^0.15.0",
     "pickier": "^0.1.7",
+    "ts-error-handling": "^0.1.0",
     "typescript": "^5.9.3"
   },
   "git-hooks": {
