@@ -1,7 +1,7 @@
 {
   "name": "better-dx",
   "type": "module",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "All the development dependencies you need.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
@@ -80,6 +80,7 @@
     "bun-plugin-dtsx": "0.21.12",
     "bunfig": "^0.15.0",
     "pickier": "^0.1.7",
+    "ts-error-handling": "^0.1.0",
     "typescript": "^5.9.3"
   },
   "git-hooks": {
