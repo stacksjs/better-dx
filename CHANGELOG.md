@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.7...v0.2.0)
+
+### 🧹 Chores
+
+- release v0.2.0 ([f414d90](https://github.com/stacksjs/better-dx/commit/f414d90))
+- include `ts-error-handling` ([931880b](https://github.com/stacksjs/better-dx/commit/931880b))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.7...HEAD)
+
+### 🧹 Chores
+
+- include `ts-error-handling` ([931880b](https://github.com/stacksjs/better-dx/commit/931880b))
+
+### Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.5...v0.1.7)
 
 ### 🧹 Chores
