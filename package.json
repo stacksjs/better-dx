@@ -70,7 +70,7 @@
   },
   "peerDependencies": {
     "@stacksjs/bumpx": "^0.2.2",
-    "@stacksjs/bunpress": "^0.0.5",
+    "@stacksjs/bunpress": "^0.1.0",
     "@stacksjs/clarity": "^0.3.24",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.2.0",
