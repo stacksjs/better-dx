@@ -1,3 +1,34 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.0...v0.2.1)
+
+### 🧹 Chores
+
+- release v0.2.1 ([ea1d5a6](https://github.com/stacksjs/better-dx/commit/ea1d5a6)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([d53d5ec](https://github.com/stacksjs/better-dx/commit/d53d5ec)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 📄 Miscellaneous
+
+- Merge pull request #6 from stacksjs/renovate/all-minor-patch ([94125cd](https://github.com/stacksjs/better-dx/commit/94125cd)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#6](https://github.com/stacksjs/better-dx/issues/6), [#6](https://github.com/stacksjs/better-dx/issues/6))
+
+### Contributors
+
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.0...HEAD)
+
+### 🧹 Chores
+
+- wip ([d53d5ec](https://github.com/stacksjs/better-dx/commit/d53d5ec)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 📄 Miscellaneous
+
+- Merge pull request #6 from stacksjs/renovate/all-minor-patch ([94125cd](https://github.com/stacksjs/better-dx/commit/94125cd)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#6](https://github.com/stacksjs/better-dx/issues/6), [#6](https://github.com/stacksjs/better-dx/issues/6))
+
+### Contributors
+
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.1.7...v0.2.0)
 
 ### 🧹 Chores
