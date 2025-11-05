@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.1...v0.2.2)
+
+### 🧹 Chores
+
+- release v0.2.2 ([cf60232](https://github.com/stacksjs/better-dx/commit/cf60232)) _(by Chris <chrisbreuer93@gmail.com>)_
+- set `bun-plugin-dtsx` version ([dadab90](https://github.com/stacksjs/better-dx/commit/dadab90)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.1...HEAD)
+
+### 🧹 Chores
+
+- set `bun-plugin-dtsx` version ([dadab90](https://github.com/stacksjs/better-dx/commit/dadab90)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.0...v0.2.1)
 
 ### 🧹 Chores
