@@ -1,3 +1,28 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.2...v0.2.3)
+
+### 🧹 Chores
+
+- release v0.2.3 ([d04d0e3](https://github.com/stacksjs/better-dx/commit/d04d0e3)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([bdfe449](https://github.com/stacksjs/better-dx/commit/bdfe449)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- adjust readme ([551982b](https://github.com/stacksjs/better-dx/commit/551982b)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.2...HEAD)
+
+### 🧹 Chores
+
+- wip ([bdfe449](https://github.com/stacksjs/better-dx/commit/bdfe449)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- adjust readme ([551982b](https://github.com/stacksjs/better-dx/commit/551982b)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.1...v0.2.2)
 
 ### 🧹 Chores
