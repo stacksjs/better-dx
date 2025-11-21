@@ -1,3 +1,57 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.3...v0.2.4)
+
+### 🧹 Chores
+
+- release v0.2.4 ([e14b905](https://github.com/stacksjs/better-dx/commit/e14b905)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#21) ([8c934f2](https://github.com/stacksjs/better-dx/commit/8c934f2)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#21](https://github.com/stacksjs/better-dx/issues/21), [#21](https://github.com/stacksjs/better-dx/issues/21))
+- **deps**: update dependency actions/checkout to v6.0.0 (#23) ([7817499](https://github.com/stacksjs/better-dx/commit/7817499)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#23](https://github.com/stacksjs/better-dx/issues/23), [#23](https://github.com/stacksjs/better-dx/issues/23))
+- **deps**: update dependency pickier to ^0.1.9 (#22) ([1794347](https://github.com/stacksjs/better-dx/commit/1794347)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#22](https://github.com/stacksjs/better-dx/issues/22), [#22](https://github.com/stacksjs/better-dx/issues/22))
+- **deps**: update actions/checkout action to v6 (#24) ([b822778](https://github.com/stacksjs/better-dx/commit/b822778)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#24](https://github.com/stacksjs/better-dx/issues/24), [#24](https://github.com/stacksjs/better-dx/issues/24))
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#20) ([ec4b509](https://github.com/stacksjs/better-dx/commit/ec4b509)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#20](https://github.com/stacksjs/better-dx/issues/20), [#20](https://github.com/stacksjs/better-dx/issues/20))
+- **deps**: update all non-major dependencies (#18) ([29ef857](https://github.com/stacksjs/better-dx/commit/29ef857)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#18](https://github.com/stacksjs/better-dx/issues/18), [#18](https://github.com/stacksjs/better-dx/issues/18))
+- **deps**: update all non-major dependencies (#19) ([ad8a4be](https://github.com/stacksjs/better-dx/commit/ad8a4be)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#19](https://github.com/stacksjs/better-dx/issues/19), [#19](https://github.com/stacksjs/better-dx/issues/19))
+- **deps**: update dependency actions/checkout to v5.0.0 (#14) ([e4acde3](https://github.com/stacksjs/better-dx/commit/e4acde3)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#14](https://github.com/stacksjs/better-dx/issues/14), [#14](https://github.com/stacksjs/better-dx/issues/14))
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#17) ([1017802](https://github.com/stacksjs/better-dx/commit/1017802)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#17](https://github.com/stacksjs/better-dx/issues/17), [#17](https://github.com/stacksjs/better-dx/issues/17))
+- **deps**: update all non-major dependencies (#16) ([de99bfa](https://github.com/stacksjs/better-dx/commit/de99bfa)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#16](https://github.com/stacksjs/better-dx/issues/16), [#16](https://github.com/stacksjs/better-dx/issues/16))
+- **deps**: update all non-major dependencies (#15) ([a3cb03e](https://github.com/stacksjs/better-dx/commit/a3cb03e)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#15](https://github.com/stacksjs/better-dx/issues/15), [#15](https://github.com/stacksjs/better-dx/issues/15))
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#13) ([70b32f3](https://github.com/stacksjs/better-dx/commit/70b32f3)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#13](https://github.com/stacksjs/better-dx/issues/13), [#13](https://github.com/stacksjs/better-dx/issues/13))
+- **deps**: update all non-major dependencies (#12) ([86143f3](https://github.com/stacksjs/better-dx/commit/86143f3)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#12](https://github.com/stacksjs/better-dx/issues/12), [#12](https://github.com/stacksjs/better-dx/issues/12))
+- **deps**: update dependency actions/checkout to v5.0.0 (#11) ([fc4d49e](https://github.com/stacksjs/better-dx/commit/fc4d49e)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#11](https://github.com/stacksjs/better-dx/issues/11), [#11](https://github.com/stacksjs/better-dx/issues/11))
+- **deps**: update dependency actions/checkout to v5.0.0 (#8) ([f997fdd](https://github.com/stacksjs/better-dx/commit/f997fdd)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#8](https://github.com/stacksjs/better-dx/issues/8), [#8](https://github.com/stacksjs/better-dx/issues/8))
+- **deps**: update all non-major dependencies (#10) ([0a1d42e](https://github.com/stacksjs/better-dx/commit/0a1d42e)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#10](https://github.com/stacksjs/better-dx/issues/10), [#10](https://github.com/stacksjs/better-dx/issues/10))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.3...HEAD)
+
+### 🧹 Chores
+
+- **deps**: update all non-major dependencies (#21) ([8c934f2](https://github.com/stacksjs/better-dx/commit/8c934f2)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#21](https://github.com/stacksjs/better-dx/issues/21), [#21](https://github.com/stacksjs/better-dx/issues/21))
+- **deps**: update dependency actions/checkout to v6.0.0 (#23) ([7817499](https://github.com/stacksjs/better-dx/commit/7817499)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#23](https://github.com/stacksjs/better-dx/issues/23), [#23](https://github.com/stacksjs/better-dx/issues/23))
+- **deps**: update dependency pickier to ^0.1.9 (#22) ([1794347](https://github.com/stacksjs/better-dx/commit/1794347)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#22](https://github.com/stacksjs/better-dx/issues/22), [#22](https://github.com/stacksjs/better-dx/issues/22))
+- **deps**: update actions/checkout action to v6 (#24) ([b822778](https://github.com/stacksjs/better-dx/commit/b822778)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#24](https://github.com/stacksjs/better-dx/issues/24), [#24](https://github.com/stacksjs/better-dx/issues/24))
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#20) ([ec4b509](https://github.com/stacksjs/better-dx/commit/ec4b509)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#20](https://github.com/stacksjs/better-dx/issues/20), [#20](https://github.com/stacksjs/better-dx/issues/20))
+- **deps**: update all non-major dependencies (#18) ([29ef857](https://github.com/stacksjs/better-dx/commit/29ef857)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#18](https://github.com/stacksjs/better-dx/issues/18), [#18](https://github.com/stacksjs/better-dx/issues/18))
+- **deps**: update all non-major dependencies (#19) ([ad8a4be](https://github.com/stacksjs/better-dx/commit/ad8a4be)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#19](https://github.com/stacksjs/better-dx/issues/19), [#19](https://github.com/stacksjs/better-dx/issues/19))
+- **deps**: update dependency actions/checkout to v5.0.0 (#14) ([e4acde3](https://github.com/stacksjs/better-dx/commit/e4acde3)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#14](https://github.com/stacksjs/better-dx/issues/14), [#14](https://github.com/stacksjs/better-dx/issues/14))
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#17) ([1017802](https://github.com/stacksjs/better-dx/commit/1017802)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#17](https://github.com/stacksjs/better-dx/issues/17), [#17](https://github.com/stacksjs/better-dx/issues/17))
+- **deps**: update all non-major dependencies (#16) ([de99bfa](https://github.com/stacksjs/better-dx/commit/de99bfa)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#16](https://github.com/stacksjs/better-dx/issues/16), [#16](https://github.com/stacksjs/better-dx/issues/16))
+- **deps**: update all non-major dependencies (#15) ([a3cb03e](https://github.com/stacksjs/better-dx/commit/a3cb03e)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#15](https://github.com/stacksjs/better-dx/issues/15), [#15](https://github.com/stacksjs/better-dx/issues/15))
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#13) ([70b32f3](https://github.com/stacksjs/better-dx/commit/70b32f3)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#13](https://github.com/stacksjs/better-dx/issues/13), [#13](https://github.com/stacksjs/better-dx/issues/13))
+- **deps**: update all non-major dependencies (#12) ([86143f3](https://github.com/stacksjs/better-dx/commit/86143f3)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#12](https://github.com/stacksjs/better-dx/issues/12), [#12](https://github.com/stacksjs/better-dx/issues/12))
+- **deps**: update dependency actions/checkout to v5.0.0 (#11) ([fc4d49e](https://github.com/stacksjs/better-dx/commit/fc4d49e)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#11](https://github.com/stacksjs/better-dx/issues/11), [#11](https://github.com/stacksjs/better-dx/issues/11))
+- **deps**: update dependency actions/checkout to v5.0.0 (#8) ([f997fdd](https://github.com/stacksjs/better-dx/commit/f997fdd)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#8](https://github.com/stacksjs/better-dx/issues/8), [#8](https://github.com/stacksjs/better-dx/issues/8))
+- **deps**: update all non-major dependencies (#10) ([0a1d42e](https://github.com/stacksjs/better-dx/commit/0a1d42e)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#10](https://github.com/stacksjs/better-dx/issues/10), [#10](https://github.com/stacksjs/better-dx/issues/10))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.2...v0.2.3)
 
 ### 🧹 Chores
