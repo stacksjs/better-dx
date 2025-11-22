@@ -1,3 +1,30 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.4...v0.2.5)
+
+### 🧹 Chores
+
+- release v0.2.5 ([949e209](https://github.com/stacksjs/better-dx/commit/949e209)) _(by Chris <chrisbreuer93@gmail.com>)_
+- set bun-plugin-dtsx ([854323a](https://github.com/stacksjs/better-dx/commit/854323a)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([7e4eadd](https://github.com/stacksjs/better-dx/commit/7e4eadd)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#25) ([bb728b6](https://github.com/stacksjs/better-dx/commit/bb728b6)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#25](https://github.com/stacksjs/better-dx/issues/25), [#25](https://github.com/stacksjs/better-dx/issues/25))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.4...HEAD)
+
+### 🧹 Chores
+
+- set bun-plugin-dtsx ([854323a](https://github.com/stacksjs/better-dx/commit/854323a)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([7e4eadd](https://github.com/stacksjs/better-dx/commit/7e4eadd)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update stacksjs/action-releaser action to v1.2.7 (#25) ([bb728b6](https://github.com/stacksjs/better-dx/commit/bb728b6)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#25](https://github.com/stacksjs/better-dx/issues/25), [#25](https://github.com/stacksjs/better-dx/issues/25))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.3...v0.2.4)
 
 ### 🧹 Chores
