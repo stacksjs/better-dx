@@ -5,9 +5,18 @@ export const defaultConfig: DXConfig = {
   verbose: true,
 }
 
-// eslint-disable-next-line antfu/no-top-level-await
-export const config: DXConfig = await loadConfig({
+let _config: DXConfig | null = null
+
+export async function getConfig(): Promise<DXConfig> {
+  if (!_config) {
+    _config = await loadConfig({
   name: 'development',
   alias: 'dx',
   defaultConfig,
 })
+  }
+  return _config
+}
+
+// For backwards compatibility - synchronous access with default fallback
+export const config: DXConfig = defaultConfig
