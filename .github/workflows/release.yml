@@ -51,11 +51,6 @@ jobs:
           zig build
           echo "$PWD/zig-out/bin" >> $GITHUB_PATH
 
-      - name: Publish
-        run: pantry npm:publish --access public
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -68,3 +63,8 @@ jobs:
             bin/dx-darwin-arm64
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish
+        run: pantry npm:publish --access public
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
