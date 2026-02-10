@@ -37,7 +37,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create GitHub Release
-        uses: stacksjs/action-releaser@v1.2.7
+        uses: stacksjs/action-releaser@v1.2.9
         with:
           files: |
             bin/dx-linux-x64
