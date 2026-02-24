@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "better-dx",
@@ -14,7 +15,7 @@
         "bun-git-hooks": "^0.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "pickier": "^0.1.18",
+        "pickier": "^0.1.20",
         "ts-error-handling": "^0.1.1",
         "typescript": "^5.9.3",
       },
