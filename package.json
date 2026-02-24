@@ -1,17 +1,17 @@
 {
   "name": "better-dx",
   "type": "module",
-  "version": "0.2.6",
+  "version": "0.2.5",
   "description": "All the development dependencies you need.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/development#readme",
+  "homepage": "https://github.com/stacksjs/better-dx#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/development.git"
+    "url": "git+https://github.com/stacksjs/better-dx.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/development/issues"
+    "url": "https://github.com/stacksjs/better-dx/issues"
   },
   "keywords": [
     "typescript",
