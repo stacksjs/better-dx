@@ -10,10 +10,10 @@ let _config: DXConfig | null = null
 export async function getConfig(): Promise<DXConfig> {
   if (!_config) {
     _config = await loadConfig({
-  name: 'development',
-  alias: 'dx',
-  defaultConfig,
-})
+      name: 'development',
+      alias: 'dx',
+      defaultConfig,
+    })
   }
   return _config
 }
