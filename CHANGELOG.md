@@ -1,3 +1,62 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.6...v0.2.7)
+
+### 🧹 Chores
+
+- release v0.2.7 ([f943974](https://github.com/stacksjs/better-dx/commit/f943974)) _(by Chris <chrisbreuer93@gmail.com>)_
+- minor adjustments ([4ab305d](https://github.com/stacksjs/better-dx/commit/4ab305d)) _(by Chris <chrisbreuer93@gmail.com>)_
+- add proper claude code guidelines ([b774555](https://github.com/stacksjs/better-dx/commit/b774555)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- use pantry monorepo action instead of pantry-setup ([b48787d](https://github.com/stacksjs/better-dx/commit/b48787d)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- ignore claude config in linter ([275832b](https://github.com/stacksjs/better-dx/commit/275832b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- add claude code guidelines ([731257f](https://github.com/stacksjs/better-dx/commit/731257f)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update github actions (#946) ([bac75a3](https://github.com/stacksjs/better-dx/commit/bac75a3)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#946](https://github.com/stacksjs/better-dx/issues/946), [#946](https://github.com/stacksjs/better-dx/issues/946))
+- **deps**: update github actions (rebased) (#945) ([41941e1](https://github.com/stacksjs/better-dx/commit/41941e1)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#945](https://github.com/stacksjs/better-dx/issues/945), [#945](https://github.com/stacksjs/better-dx/issues/945))
+- add additional docs ([7fc8888](https://github.com/stacksjs/better-dx/commit/7fc8888)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update github actions (rebased) (#943) ([6e78d1e](https://github.com/stacksjs/better-dx/commit/6e78d1e)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#943](https://github.com/stacksjs/better-dx/issues/943), [#943](https://github.com/stacksjs/better-dx/issues/943))
+- **deps**: update all non-major dependencies (rebased) (#944) ([6585ca1](https://github.com/stacksjs/better-dx/commit/6585ca1)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#944](https://github.com/stacksjs/better-dx/issues/944), [#944](https://github.com/stacksjs/better-dx/issues/944))
+- wip ([ab935ba](https://github.com/stacksjs/better-dx/commit/ab935ba)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([e53735d](https://github.com/stacksjs/better-dx/commit/e53735d)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([d1cc204](https://github.com/stacksjs/better-dx/commit/d1cc204)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([e4e9ce7](https://github.com/stacksjs/better-dx/commit/e4e9ce7)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([c9414b8](https://github.com/stacksjs/better-dx/commit/c9414b8)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([4ef5cbd](https://github.com/stacksjs/better-dx/commit/4ef5cbd)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([ba056f5](https://github.com/stacksjs/better-dx/commit/ba056f5)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([70e9f00](https://github.com/stacksjs/better-dx/commit/70e9f00)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([f68ef12](https://github.com/stacksjs/better-dx/commit/f68ef12)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.6...HEAD)
+
+### 🧹 Chores
+
+- minor adjustments ([4ab305d](https://github.com/stacksjs/better-dx/commit/4ab305d)) _(by Chris <chrisbreuer93@gmail.com>)_
+- add proper claude code guidelines ([b774555](https://github.com/stacksjs/better-dx/commit/b774555)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- use pantry monorepo action instead of pantry-setup ([b48787d](https://github.com/stacksjs/better-dx/commit/b48787d)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- ignore claude config in linter ([275832b](https://github.com/stacksjs/better-dx/commit/275832b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- add claude code guidelines ([731257f](https://github.com/stacksjs/better-dx/commit/731257f)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update github actions (#946) ([bac75a3](https://github.com/stacksjs/better-dx/commit/bac75a3)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#946](https://github.com/stacksjs/better-dx/issues/946), [#946](https://github.com/stacksjs/better-dx/issues/946))
+- **deps**: update github actions (rebased) (#945) ([41941e1](https://github.com/stacksjs/better-dx/commit/41941e1)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#945](https://github.com/stacksjs/better-dx/issues/945), [#945](https://github.com/stacksjs/better-dx/issues/945))
+- add additional docs ([7fc8888](https://github.com/stacksjs/better-dx/commit/7fc8888)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update github actions (rebased) (#943) ([6e78d1e](https://github.com/stacksjs/better-dx/commit/6e78d1e)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#943](https://github.com/stacksjs/better-dx/issues/943), [#943](https://github.com/stacksjs/better-dx/issues/943))
+- **deps**: update all non-major dependencies (rebased) (#944) ([6585ca1](https://github.com/stacksjs/better-dx/commit/6585ca1)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#944](https://github.com/stacksjs/better-dx/issues/944), [#944](https://github.com/stacksjs/better-dx/issues/944))
+- wip ([ab935ba](https://github.com/stacksjs/better-dx/commit/ab935ba)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([e53735d](https://github.com/stacksjs/better-dx/commit/e53735d)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([d1cc204](https://github.com/stacksjs/better-dx/commit/d1cc204)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([e4e9ce7](https://github.com/stacksjs/better-dx/commit/e4e9ce7)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([c9414b8](https://github.com/stacksjs/better-dx/commit/c9414b8)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([4ef5cbd](https://github.com/stacksjs/better-dx/commit/4ef5cbd)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([ba056f5](https://github.com/stacksjs/better-dx/commit/ba056f5)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([70e9f00](https://github.com/stacksjs/better-dx/commit/70e9f00)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([f68ef12](https://github.com/stacksjs/better-dx/commit/f68ef12)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.5...v0.2.6)
 
 ### 🧹 Chores
