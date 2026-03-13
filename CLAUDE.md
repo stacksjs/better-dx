@@ -2,7 +2,7 @@
 
 ## About
 
-All the development dependencies you need. Provides shared dev tooling as peer dependencies.
+A single dev dependency that bundles all essential development tooling for Stacks ecosystem projects. It provides release helpers, documentation generation, code linting/formatting, git linting, changelog generation, automated dependency updates, and configuration management as peer dependencies, so downstream projects do not need to install these tools individually.
 
 ## Linting
 
