@@ -31,10 +31,6 @@
   },
   "module": "./dist/src/index.js",
   "types": "./dist/index.d.ts",
-  "bin": {
-    "better-dx": "./dist/bin/cli.js",
-    "dx": "./dist/bin/cli.js"
-  },
   "files": [
     "README.md",
     "dist"
