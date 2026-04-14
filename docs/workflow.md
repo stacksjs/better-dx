@@ -2,39 +2,6 @@
 title: Workflow Integration
 description: Integrate better-dx tools into your development and CI/CD workflows.
 ---
-### Git Hooks
-
-Configure pre-commit and commit-msg hooks:
-
-```json
-{
-  "git-hooks": {
-    "pre-commit": {
-      "staged-lint": {
-        "*.{js,ts,tsx}": "bunx eslint --fix",
-        "*.{json,yaml,yml}": "bunx prettier --write",
-        "*.md": "bunx prettier --write"
-      }
-    },
-    "commit-msg": "bunx gitlint --edit .git/COMMIT*EDITMSG",
-    "pre-push": "bun run validate"
-  }
-}
-```
-
-## GitHub Actions
-
-### CI Workflow
-
-Create `.github/workflows/ci.yml`:
-
-```yaml
-name: CI
-
-on:
-  push:
-    branches: [main]
-  pull*request:
     branches: [main]
 
 jobs:

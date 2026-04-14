@@ -3,44 +3,6 @@ title: Included Tools
 description: Overview of all development tools included in better-dx.
 ---
 
-### bunpress
-
-Static documentation generation powered by VitePress.
-
-```bash
-
-# Development server
-
-bunx bunpress dev
-
-# Build documentation
-
-bunx bunpress build
-
-# Preview build
-
-bunx bunpress preview
-```
-
-**Key Features:**
-
-- Markdown-based docs
-- Vue components support
-- Full-text search
-- Dark mode
-
-## Code Quality
-
-### clarity
-
-Code formatting with sensible defaults.
-
-```bash
-
-# Format files
-
-bunx clarity format .
-
 # Check formatting
 
 bunx clarity check .
