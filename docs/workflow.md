@@ -2,39 +2,6 @@
 title: Workflow Integration
 description: Integrate better-dx tools into your development and CI/CD workflows.
 ---
-
-# Workflow Integration
-
-better-dx tools integrate seamlessly into your development workflow and CI/CD pipelines.
-
-## Development Workflow
-
-### Recommended Scripts
-
-Add these scripts to your `package.json`:
-
-```json
-{
-  "scripts": {
-    "dev": "bun run --watch src/index.ts",
-    "build": "bun run build.ts",
-    "lint": "bunx eslint .",
-    "lint:fix": "bunx eslint . --fix",
-    "format": "bunx clarity format .",
-    "format:check": "bunx clarity check .",
-    "test": "bun test",
-    "test:watch": "bun test --watch",
-    "test:coverage": "bun test --coverage",
-    "typecheck": "tsc --noEmit",
-    "changelog": "bunx logsmith --output CHANGELOG.md",
-    "release": "bun run changelog && bunx bumpx prompt",
-    "docs": "bunx bunpress dev",
-    "docs:build": "bunx bunpress build",
-    "validate": "bun run lint && bun run typecheck && bun run test"
-  }
-}
-```
-
 ### Git Hooks
 
 Configure pre-commit and commit-msg hooks:
@@ -49,7 +16,7 @@ Configure pre-commit and commit-msg hooks:
         "*.md": "bunx prettier --write"
       }
     },
-    "commit-msg": "bunx gitlint --edit .git/COMMIT_EDITMSG",
+    "commit-msg": "bunx gitlint --edit .git/COMMIT*EDITMSG",
     "pre-push": "bun run validate"
   }
 }
@@ -67,57 +34,71 @@ name: CI
 on:
   push:
     branches: [main]
-  pull_request:
+  pull*request:
     branches: [main]
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
 
       - name: Setup Bun
+
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
+
         run: bun install
 
       - name: Lint
+
         run: bun run lint
 
       - name: Type check
+
         run: bun run typecheck
 
   test:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
 
       - name: Setup Bun
+
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
+
         run: bun install
 
       - name: Run tests
+
         run: bun test --coverage
 
       - name: Upload coverage
+
         uses: codecov/codecov-action@v3
 
   build:
     runs-on: ubuntu-latest
     needs: [lint, test]
     steps:
+
       - uses: actions/checkout@v4
 
       - name: Setup Bun
+
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
+
         run: bun install
 
       - name: Build
+
         run: bun run build
 ```
 
@@ -131,41 +112,50 @@ name: Release
 on:
   push:
     tags:
+
       - 'v*'
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
+
         with:
           fetch-depth: 0
 
       - name: Setup Bun
+
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
+
         run: bun install
 
       - name: Build
+
         run: bun run build
 
       - name: Generate changelog
-        run: bunx logsmith --from $(git describe --tags --abbrev=0 HEAD^) --output RELEASE_NOTES.md
+
+        run: bunx logsmith --from $(git describe --tags --abbrev=0 HEAD^) --output RELEASE*NOTES.md
 
       - name: Create Release
+
         uses: softprops/action-gh-release@v1
         with:
-          body_path: RELEASE_NOTES.md
+          body*path: RELEASE*NOTES.md
           files: |
             dist/*
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB*TOKEN: ${{ secrets.GITHUB*TOKEN }}
 
       - name: Publish to npm
+
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE*AUTH*TOKEN: ${{ secrets.NPM*TOKEN }}
 ```
 
 ### Documentation Deployment
@@ -179,28 +169,34 @@ on:
   push:
     branches: [main]
     paths:
+
       - 'docs/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
 
       - name: Setup Bun
+
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
+
         run: bun install
 
       - name: Build docs
+
         run: bun run docs:build
 
       - name: Deploy to GitHub Pages
+
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
+          github*token: ${{ secrets.GITHUB*TOKEN }}
+          publish*dir: ./docs/.vitepress/dist
 ```
 
 ## Release Process
@@ -208,21 +204,25 @@ jobs:
 ### Automated Release
 
 1. **Make changes** and commit with conventional commits:
+
    ```bash
    git commit -m "feat: add new feature"
    ```
 
 2. **Generate changelog**:
+
    ```bash
    bun run changelog
    ```
 
 3. **Bump version** (interactive):
+
    ```bash
    bunx bumpx prompt
    ```
 
 4. **Push with tags**:
+
    ```bash
    git push --follow-tags
    ```
@@ -230,23 +230,30 @@ jobs:
 ### Manual Release Steps
 
 ```bash
+
 # 1. Ensure all tests pass
+
 bun run validate
 
 # 2. Update changelog
+
 bunx logsmith --output CHANGELOG.md
 
 # 3. Commit changelog
+
 git add CHANGELOG.md
 git commit -m "docs: update changelog"
 
 # 4. Bump version
+
 bunx bumpx minor
 
 # 5. Push
+
 git push --follow-tags
 
 # 6. Publish
+
 npm publish
 ```
 
@@ -275,19 +282,25 @@ jobs:
     strategy:
       matrix:
         package:
+
           - core
           - utils
           - cli
+
     steps:
+
       - uses: actions/checkout@v4
 
       - name: Setup Bun
+
         uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
+
         run: bun install
 
       - name: Test package
+
         run: bun test packages/${{ matrix.package }}/test
 ```
 
@@ -312,13 +325,17 @@ The following runs before every push:
 Keep dependencies updated:
 
 ```bash
+
 # Check for updates
+
 bunx npm-check-updates
 
 # Update all dependencies
+
 bunx npm-check-updates -u && bun install
 
 # Update better-dx
+
 bun update better-dx
 ```
 
@@ -329,14 +346,18 @@ Create `.github/dependabot.yml`:
 ```yaml
 version: 2
 updates:
+
   - package-ecosystem: npm
+
     directory: /
     schedule:
       interval: weekly
     commit-message:
       prefix: "chore(deps)"
     labels:
+
       - dependencies
+
 ```
 
 ## Best Practices
@@ -344,13 +365,17 @@ updates:
 ### 1. Use Conventional Commits
 
 ```bash
+
 # Features
+
 git commit -m "feat(auth): add OAuth2 support"
 
 # Bug fixes
+
 git commit -m "fix(api): handle null responses"
 
 # Breaking changes
+
 git commit -m "feat!: change API response format"
 ```
 
@@ -397,6 +422,6 @@ bunx eslint . --cache --cache-location .eslintcache
 Clear TypeScript cache:
 
 ```bash
-rm -rf node_modules/.cache
+rm -rf node*modules/.cache
 bun run typecheck
 ```

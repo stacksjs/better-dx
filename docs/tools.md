@@ -3,53 +3,27 @@ title: Included Tools
 description: Overview of all development tools included in better-dx.
 ---
 
-# Included Tools
-
-better-dx bundles a carefully curated set of development tools for TypeScript and Bun projects.
-
-## Version Management
-
-### bumpx
-
-Version bumping and release automation.
-
-```bash
-# Interactive version bump
-bunx bumpx prompt
-
-# Specific version bump
-bunx bumpx patch
-bunx bumpx minor
-bunx bumpx major
-
-# Recursive monorepo bump
-bunx bumpx prompt --recursive
-```
-
-**Key Features:**
-- Semantic versioning
-- Monorepo support
-- Git tag creation
-- Pre/post release scripts
-
-## Documentation
-
 ### bunpress
 
 Static documentation generation powered by VitePress.
 
 ```bash
+
 # Development server
+
 bunx bunpress dev
 
 # Build documentation
+
 bunx bunpress build
 
 # Preview build
+
 bunx bunpress preview
 ```
 
 **Key Features:**
+
 - Markdown-based docs
 - Vue components support
 - Full-text search
@@ -62,10 +36,13 @@ bunx bunpress preview
 Code formatting with sensible defaults.
 
 ```bash
+
 # Format files
+
 bunx clarity format .
 
 # Check formatting
+
 bunx clarity check .
 ```
 
@@ -85,6 +62,7 @@ export default config({
 ```
 
 **Included Rules:**
+
 - TypeScript best practices
 - Import ordering
 - Code style consistency
@@ -97,10 +75,13 @@ export default config({
 Enforce conventional commit messages.
 
 ```bash
+
 # Validate commit message
+
 bunx gitlint --edit .git/COMMIT_EDITMSG
 
 # Check a message directly
+
 echo "feat: add new feature" | bunx gitlint
 ```
 
@@ -114,6 +95,7 @@ type(scope): description
 ```
 
 **Valid Types:**
+
 - `feat` - New feature
 - `fix` - Bug fix
 - `docs` - Documentation
@@ -141,6 +123,7 @@ Git hooks for Bun projects.
 ```
 
 **Supported Hooks:**
+
 - `pre-commit`
 - `commit-msg`
 - `pre-push`
@@ -154,17 +137,22 @@ Git hooks for Bun projects.
 Automatic changelog generation from commits.
 
 ```bash
+
 # Generate changelog
+
 bunx logsmith --output CHANGELOG.md
 
 # Preview changes
+
 bunx logsmith --verbose
 
 # Generate since specific tag
+
 bunx logsmith --from v1.0.0
 ```
 
 **Features:**
+
 - Groups by commit type
 - Links to commits
 - Breaking changes section
@@ -189,6 +177,7 @@ const config = await loadConfig({
 ```
 
 **Supported Formats:**
+
 - `.config.ts`
 - `.config.js`
 - `.config.json`
@@ -213,6 +202,7 @@ await Bun.build({
 ```
 
 **Features:**
+
 - Declaration file generation
 - Path resolution
 - Type bundling
@@ -246,10 +236,13 @@ if (result.ok) {
 AI-powered development assistant.
 
 ```bash
+
 # Ask for help
+
 bunx buddy "How do I configure ESLint?"
 
 # Code review
+
 bunx buddy review ./src/index.ts
 ```
 
