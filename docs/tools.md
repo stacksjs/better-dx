@@ -2,23 +2,6 @@
 title: Included Tools
 description: Overview of all development tools included in better-dx.
 ---
-
-# Check formatting
-
-bunx clarity check .
-```
-
-### pickier
-
-Enhanced ESLint configuration.
-
-```js
-// eslint.config.js
-import { config } from 'pickier'
-
-export default config({
-  typescript: true,
-  vue: false,
   react: false,
 })
 ```

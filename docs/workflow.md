@@ -2,24 +2,6 @@
 title: Workflow Integration
 description: Integrate better-dx tools into your development and CI/CD workflows.
 ---
-    branches: [main]
-
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-
-      - uses: actions/checkout@v4
-
-      - name: Setup Bun
-
-        uses: oven-sh/setup-bun@v1
-
-      - name: Install dependencies
-
-        run: bun install
-
-      - name: Lint
 
         run: bun run lint
 
