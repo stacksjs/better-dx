@@ -1,3 +1,100 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.7...v0.2.8)
+
+### 🐛 Bug Fixes
+
+- add setup-bun to publish-commit job ([0b001b3](https://github.com/stacksjs/better-dx/commit/0b001b3)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- uncomment lint and typecheck CI jobs ([fd8c2e4](https://github.com/stacksjs/better-dx/commit/fd8c2e4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- correct corrupted actions/checkout version ([3a7ac64](https://github.com/stacksjs/better-dx/commit/3a7ac64)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🤖 Continuous Integration
+
+- drop redundant setup-bun (pantry installs bun via deps.yaml) ([799f325](https://github.com/stacksjs/better-dx/commit/799f325)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🧹 Chores
+
+- release v0.2.8 ([c9d1cb4](https://github.com/stacksjs/better-dx/commit/c9d1cb4)) _(by Chris <chrisbreuer93@gmail.com>)_
+- update deps ([c8bf653](https://github.com/stacksjs/better-dx/commit/c8bf653)) _(by Chris <chrisbreuer93@gmail.com>)_
+- refresh bun.lock and apply pickier --fix ([a929f14](https://github.com/stacksjs/better-dx/commit/a929f14)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- refresh bun.lock ([c1e23c0](https://github.com/stacksjs/better-dx/commit/c1e23c0)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fresh install to pick up dtsx 0.9.14 and bunfig 0.15.9 ([2b87d6e](https://github.com/stacksjs/better-dx/commit/2b87d6e)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([ed7930b](https://github.com/stacksjs/better-dx/commit/ed7930b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- migrate from bun install to pantry install ([d987c1a](https://github.com/stacksjs/better-dx/commit/d987c1a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fresh install to pick up pickier 0.1.21 ([f9523ec](https://github.com/stacksjs/better-dx/commit/f9523ec)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fix lint errors ([3b77b26](https://github.com/stacksjs/better-dx/commit/3b77b26)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- gitignore pantry directory ([d8990e7](https://github.com/stacksjs/better-dx/commit/d8990e7)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- minor updates ([09cb3ec](https://github.com/stacksjs/better-dx/commit/09cb3ec)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fix lint errors ([673f10b](https://github.com/stacksjs/better-dx/commit/673f10b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- auto-fix lint errors ([e07855d](https://github.com/stacksjs/better-dx/commit/e07855d)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- include md in pickier lint extensions ([8843e6c](https://github.com/stacksjs/better-dx/commit/8843e6c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update github actions (rebased) (#951) ([37708b2](https://github.com/stacksjs/better-dx/commit/37708b2)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#951](https://github.com/stacksjs/better-dx/issues/951), [#951](https://github.com/stacksjs/better-dx/issues/951))
+- **deps**: update dependency typescript to 6.0.2 (rebased) (#952) ([c2396eb](https://github.com/stacksjs/better-dx/commit/c2396eb)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#952](https://github.com/stacksjs/better-dx/issues/952), [#952](https://github.com/stacksjs/better-dx/issues/952))
+- update vscode config ([f00464c](https://github.com/stacksjs/better-dx/commit/f00464c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- repo cleanup and modernization ([28b56e4](https://github.com/stacksjs/better-dx/commit/28b56e4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- use Pantry action for publish-commit and add job dependencies ([d89219a](https://github.com/stacksjs/better-dx/commit/d89219a)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update github actions (rebased) (#948) ([f2d3ac9](https://github.com/stacksjs/better-dx/commit/f2d3ac9)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#948](https://github.com/stacksjs/better-dx/issues/948), [#948](https://github.com/stacksjs/better-dx/issues/948))
+- **deps**: update all non-major dependencies (rebased) (#949) ([db50e9a](https://github.com/stacksjs/better-dx/commit/db50e9a)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#949](https://github.com/stacksjs/better-dx/issues/949), [#949](https://github.com/stacksjs/better-dx/issues/949))
+- wip ([dc93355](https://github.com/stacksjs/better-dx/commit/dc93355)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- enrich CLAUDE.md with detailed project context from README ([e038911](https://github.com/stacksjs/better-dx/commit/e038911)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- update CLAUDE.md with project context and crosswind details ([7db02e6](https://github.com/stacksjs/better-dx/commit/7db02e6)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- minor updates ([3e7c6cb](https://github.com/stacksjs/better-dx/commit/3e7c6cb)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### ⏪ Reverts
+
+- restore bun commands in CI until pantry handles npm deps ([3164f5e](https://github.com/stacksjs/better-dx/commit/3164f5e)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.7...HEAD)
+
+### 🐛 Bug Fixes
+
+- add setup-bun to publish-commit job ([0b001b3](https://github.com/stacksjs/better-dx/commit/0b001b3)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- uncomment lint and typecheck CI jobs ([fd8c2e4](https://github.com/stacksjs/better-dx/commit/fd8c2e4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- correct corrupted actions/checkout version ([3a7ac64](https://github.com/stacksjs/better-dx/commit/3a7ac64)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🤖 Continuous Integration
+
+- drop redundant setup-bun (pantry installs bun via deps.yaml) ([799f325](https://github.com/stacksjs/better-dx/commit/799f325)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🧹 Chores
+
+- update deps ([c8bf653](https://github.com/stacksjs/better-dx/commit/c8bf653)) _(by Chris <chrisbreuer93@gmail.com>)_
+- refresh bun.lock and apply pickier --fix ([a929f14](https://github.com/stacksjs/better-dx/commit/a929f14)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- refresh bun.lock ([c1e23c0](https://github.com/stacksjs/better-dx/commit/c1e23c0)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fresh install to pick up dtsx 0.9.14 and bunfig 0.15.9 ([2b87d6e](https://github.com/stacksjs/better-dx/commit/2b87d6e)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([ed7930b](https://github.com/stacksjs/better-dx/commit/ed7930b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- migrate from bun install to pantry install ([d987c1a](https://github.com/stacksjs/better-dx/commit/d987c1a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fresh install to pick up pickier 0.1.21 ([f9523ec](https://github.com/stacksjs/better-dx/commit/f9523ec)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fix lint errors ([3b77b26](https://github.com/stacksjs/better-dx/commit/3b77b26)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- gitignore pantry directory ([d8990e7](https://github.com/stacksjs/better-dx/commit/d8990e7)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- minor updates ([09cb3ec](https://github.com/stacksjs/better-dx/commit/09cb3ec)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fix lint errors ([673f10b](https://github.com/stacksjs/better-dx/commit/673f10b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- auto-fix lint errors ([e07855d](https://github.com/stacksjs/better-dx/commit/e07855d)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- include md in pickier lint extensions ([8843e6c](https://github.com/stacksjs/better-dx/commit/8843e6c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update github actions (rebased) (#951) ([37708b2](https://github.com/stacksjs/better-dx/commit/37708b2)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#951](https://github.com/stacksjs/better-dx/issues/951), [#951](https://github.com/stacksjs/better-dx/issues/951))
+- **deps**: update dependency typescript to 6.0.2 (rebased) (#952) ([c2396eb](https://github.com/stacksjs/better-dx/commit/c2396eb)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#952](https://github.com/stacksjs/better-dx/issues/952), [#952](https://github.com/stacksjs/better-dx/issues/952))
+- update vscode config ([f00464c](https://github.com/stacksjs/better-dx/commit/f00464c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- repo cleanup and modernization ([28b56e4](https://github.com/stacksjs/better-dx/commit/28b56e4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- use Pantry action for publish-commit and add job dependencies ([d89219a](https://github.com/stacksjs/better-dx/commit/d89219a)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update github actions (rebased) (#948) ([f2d3ac9](https://github.com/stacksjs/better-dx/commit/f2d3ac9)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#948](https://github.com/stacksjs/better-dx/issues/948), [#948](https://github.com/stacksjs/better-dx/issues/948))
+- **deps**: update all non-major dependencies (rebased) (#949) ([db50e9a](https://github.com/stacksjs/better-dx/commit/db50e9a)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#949](https://github.com/stacksjs/better-dx/issues/949), [#949](https://github.com/stacksjs/better-dx/issues/949))
+- wip ([dc93355](https://github.com/stacksjs/better-dx/commit/dc93355)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- enrich CLAUDE.md with detailed project context from README ([e038911](https://github.com/stacksjs/better-dx/commit/e038911)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- update CLAUDE.md with project context and crosswind details ([7db02e6](https://github.com/stacksjs/better-dx/commit/7db02e6)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- minor updates ([3e7c6cb](https://github.com/stacksjs/better-dx/commit/3e7c6cb)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### ⏪ Reverts
+
+- restore bun commands in CI until pantry handles npm deps ([3164f5e](https://github.com/stacksjs/better-dx/commit/3164f5e)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.6...v0.2.7)
 
 ### 🧹 Chores
