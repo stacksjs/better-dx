@@ -81,6 +81,21 @@
     "ts-error-handling": "^0.1.1",
     "typescript": "^6.0.2"
   },
+  "peerDependenciesMeta": {
+    "@stacksjs/bumpx": { "optional": true },
+    "@stacksjs/bunpress": { "optional": true },
+    "@stacksjs/clarity": { "optional": true },
+    "@stacksjs/gitlint": { "optional": true },
+    "@stacksjs/logsmith": { "optional": true },
+    "@types/bun": { "optional": true },
+    "buddy-bot": { "optional": true },
+    "bun-git-hooks": { "optional": true },
+    "bun-plugin-dtsx": { "optional": true },
+    "bunfig": { "optional": true },
+    "pickier": { "optional": true },
+    "ts-error-handling": { "optional": true },
+    "typescript": { "optional": true }
+  },
   "git-hooks": {
     "pre-commit": {
       "staged-lint": {
