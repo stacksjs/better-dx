@@ -1,3 +1,27 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.10...v0.2.11)
+
+### 🐛 Bug Fixes
+
+- install publish build dependencies ([d231bda](https://github.com/stacksjs/better-dx/commit/d231bda)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### 🧹 Chores
+
+- release v0.2.11 ([49b9bdf](https://github.com/stacksjs/better-dx/commit/49b9bdf)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.10...HEAD)
+
+### 🐛 Bug Fixes
+
+- install publish build dependencies ([d231bda](https://github.com/stacksjs/better-dx/commit/d231bda)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.9...v0.2.10)
 
 ### 🐛 Bug Fixes
