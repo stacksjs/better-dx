@@ -68,7 +68,8 @@
     "preview:docs": "bun --bun bunpress preview docs",
     "typecheck": "bun --bun tsc --noEmit"
   },
-  "peerDependencies": {
+  "dependencies": {
+    "@stacksjs/clapp": "^0.2.6",
     "@stacksjs/bumpx": "^0.2.5",
     "@stacksjs/bunpress": "^0.1.4",
     "@stacksjs/clarity": "^0.3.28",
@@ -79,55 +80,9 @@
     "bun-git-hooks": "^0.3.1",
     "bun-plugin-dtsx": "^0.9.14",
     "bunfig": "^0.15.11",
-    "pickier": "^0.1.27",
+    "pickier": "^0.1.28",
     "ts-error-handling": "^0.1.1",
     "typescript": "^6.0.3"
-  },
-  "peerDependenciesMeta": {
-    "@stacksjs/bumpx": {
-      "optional": true
-    },
-    "@stacksjs/bunpress": {
-      "optional": true
-    },
-    "@stacksjs/clarity": {
-      "optional": true
-    },
-    "@stacksjs/gitlint": {
-      "optional": true
-    },
-    "@stacksjs/logsmith": {
-      "optional": true
-    },
-    "@types/bun": {
-      "optional": true
-    },
-    "buddy-bot": {
-      "optional": true
-    },
-    "bun-git-hooks": {
-      "optional": true
-    },
-    "bun-plugin-dtsx": {
-      "optional": true
-    },
-    "bunfig": {
-      "optional": true
-    },
-    "pickier": {
-      "optional": true
-    },
-    "ts-error-handling": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
-  },
-  "devDependencies": {
-    "@stacksjs/clapp": "^0.2.3",
-    "bun-plugin-dtsx": "^0.9.14",
-    "bunfig": "^0.15.11"
   },
   "git-hooks": {
     "pre-commit": {
