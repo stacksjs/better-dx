@@ -1,7 +1,7 @@
 {
   "name": "better-dx",
   "type": "module",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "All the development dependencies you need.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
@@ -84,19 +84,45 @@
     "typescript": "^6.0.2"
   },
   "peerDependenciesMeta": {
-    "@stacksjs/bumpx": { "optional": true },
-    "@stacksjs/bunpress": { "optional": true },
-    "@stacksjs/clarity": { "optional": true },
-    "@stacksjs/gitlint": { "optional": true },
-    "@stacksjs/logsmith": { "optional": true },
-    "@types/bun": { "optional": true },
-    "buddy-bot": { "optional": true },
-    "bun-git-hooks": { "optional": true },
-    "bun-plugin-dtsx": { "optional": true },
-    "bunfig": { "optional": true },
-    "pickier": { "optional": true },
-    "ts-error-handling": { "optional": true },
-    "typescript": { "optional": true }
+    "@stacksjs/bumpx": {
+      "optional": true
+    },
+    "@stacksjs/bunpress": {
+      "optional": true
+    },
+    "@stacksjs/clarity": {
+      "optional": true
+    },
+    "@stacksjs/gitlint": {
+      "optional": true
+    },
+    "@stacksjs/logsmith": {
+      "optional": true
+    },
+    "@types/bun": {
+      "optional": true
+    },
+    "buddy-bot": {
+      "optional": true
+    },
+    "bun-git-hooks": {
+      "optional": true
+    },
+    "bun-plugin-dtsx": {
+      "optional": true
+    },
+    "bunfig": {
+      "optional": true
+    },
+    "pickier": {
+      "optional": true
+    },
+    "ts-error-handling": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
   },
   "git-hooks": {
     "pre-commit": {

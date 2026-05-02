@@ -1,3 +1,32 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.8...v0.2.9)
+
+### 🐛 Bug Fixes
+
+- mark dx peers optional ([4dbc692](https://github.com/stacksjs/better-dx/commit/4dbc692)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### 🧹 Chores
+
+- release v0.2.9 ([b10680e](https://github.com/stacksjs/better-dx/commit/b10680e)) _(by Chris <chrisbreuer93@gmail.com>)_
+- add cloud patch publish script ([4ca4930](https://github.com/stacksjs/better-dx/commit/4ca4930)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.8...HEAD)
+
+### 🐛 Bug Fixes
+
+- mark dx peers optional ([4dbc692](https://github.com/stacksjs/better-dx/commit/4dbc692)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### 🧹 Chores
+
+- add cloud patch publish script ([4ca4930](https://github.com/stacksjs/better-dx/commit/4ca4930)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.7...v0.2.8)
 
 ### 🐛 Bug Fixes
