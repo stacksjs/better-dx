@@ -125,7 +125,9 @@
     }
   },
   "devDependencies": {
-    "bun-plugin-dtsx": "^0.9.14"
+    "@stacksjs/clapp": "^0.2.3",
+    "bun-plugin-dtsx": "^0.9.14",
+    "bunfig": "^0.15.11"
   },
   "git-hooks": {
     "pre-commit": {
