@@ -78,10 +78,10 @@
     "buddy-bot": "^0.9.17",
     "bun-git-hooks": "^0.3.1",
     "bun-plugin-dtsx": "^0.9.14",
-    "bunfig": "^0.15.9",
-    "pickier": "^0.1.26",
+    "bunfig": "^0.15.11",
+    "pickier": "^0.1.27",
     "ts-error-handling": "^0.1.1",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   },
   "peerDependenciesMeta": {
     "@stacksjs/bumpx": {
@@ -123,6 +123,9 @@
     "typescript": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "bun-plugin-dtsx": "^0.9.14"
   },
   "git-hooks": {
     "pre-commit": {
