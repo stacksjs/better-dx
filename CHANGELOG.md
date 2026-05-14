@@ -1,3 +1,28 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.12...v0.2.13)
+
+### 🧹 Chores
+
+- release v0.2.13 ([fc095e0](https://github.com/stacksjs/better-dx/commit/fc095e0)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **better-dx**: update dtsx tooling ([b18a187](https://github.com/stacksjs/better-dx/commit/b18a187)) _(by Chris <chrisbreuer93@gmail.com>)_
+- refresh bun.lock to pick up bun-plugin-dtsx@0.9.18 ([3eed374](https://github.com/stacksjs/better-dx/commit/3eed374)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.12...HEAD)
+
+### 🧹 Chores
+
+- **better-dx**: update dtsx tooling ([b18a187](https://github.com/stacksjs/better-dx/commit/b18a187)) _(by Chris <chrisbreuer93@gmail.com>)_
+- refresh bun.lock to pick up bun-plugin-dtsx@0.9.18 ([3eed374](https://github.com/stacksjs/better-dx/commit/3eed374)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.11...v0.2.12)
 
 ### 🐛 Bug Fixes
