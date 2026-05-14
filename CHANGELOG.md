@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.13...v0.2.14)
+
+### 🧹 Chores
+
+- release v0.2.14 ([fc94e2f](https://github.com/stacksjs/better-dx/commit/fc94e2f)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **better-dx**: update git hooks tooling ([4e5c3fa](https://github.com/stacksjs/better-dx/commit/4e5c3fa)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.13...HEAD)
+
+### 🧹 Chores
+
+- **better-dx**: update git hooks tooling ([4e5c3fa](https://github.com/stacksjs/better-dx/commit/4e5c3fa)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.12...v0.2.13)
 
 ### 🧹 Chores
