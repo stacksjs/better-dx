@@ -1,3 +1,24 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.14...v0.2.15)
+
+### 🧹 Chores
+
+- release v0.2.15 ([f9cedcc](https://github.com/stacksjs/better-dx/commit/f9cedcc)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **better-dx**: update dtsx tooling ([6176213](https://github.com/stacksjs/better-dx/commit/6176213)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.14...HEAD)
+
+### 🧹 Chores
+
+- **better-dx**: update dtsx tooling ([6176213](https://github.com/stacksjs/better-dx/commit/6176213)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.13...v0.2.14)
 
 ### 🧹 Chores
