@@ -82,7 +82,10 @@
     "bunfig": "^0.15.11",
     "pickier": "^0.1.28",
     "ts-error-handling": "^0.1.1",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
+  },
+  "overrides": {
+    "typescript": "^7.0.2"
   },
   "git-hooks": {
     "pre-commit": {
