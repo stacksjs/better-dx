@@ -1,3 +1,14 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.17...v0.2.18)
+
+## 🧹 Chores
+
+- release v0.2.18 ([f318888](https://github.com/stacksjs/better-dx/commit/f318888)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **pkg**: add sideEffects:false for bundler tree-shaking (publint) ([0c92d70](https://github.com/stacksjs/better-dx/commit/0c92d70)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.14...v0.2.15)
 
 ### 🧹 Chores
