@@ -1,3 +1,18 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.18...v0.2.19)
+
+## 🐛 Bug Fixes
+
+- **pkg**: point exports at dist/index.js, the real build output ([d17f6c2](https://github.com/stacksjs/better-dx/commit/d17f6c2)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🧹 Chores
+
+- release v0.2.19 ([a162e98](https://github.com/stacksjs/better-dx/commit/a162e98)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: declare bun ^1.3.14 in deps.yaml ([a83608e](https://github.com/stacksjs/better-dx/commit/a83608e)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.17...v0.2.18)
 
 ## 🧹 Chores
