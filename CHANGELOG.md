@@ -1,3 +1,14 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.19...v0.2.20)
+
+## 🧹 Chores
+
+- release v0.2.20 ([4bd402b](https://github.com/stacksjs/better-dx/commit/4bd402b)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update bun-plugin-dtsx ([000450f](https://github.com/stacksjs/better-dx/commit/000450f)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.18...v0.2.19)
 
 ## 🐛 Bug Fixes

@@ -2,7 +2,7 @@
   "name": "better-dx",
   "type": "module",
   "sideEffects": false,
-  "version": "0.2.19",
+  "version": "0.2.20",
   "description": "All the development dependencies you need.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
