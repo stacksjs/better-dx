@@ -1,3 +1,14 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.21...v0.2.22)
+
+## 🔧 Chores
+
+- release v0.2.22 ([cc00a45](https://github.com/stacksjs/better-dx/commit/cc00a45)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update buddy-bot to 0.9.24 ([c54d26d](https://github.com/stacksjs/better-dx/commit/c54d26d)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.20...v0.2.21)
 
 ## 📝 Documentation
