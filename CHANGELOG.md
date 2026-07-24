@@ -1,3 +1,19 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.20...v0.2.21)
+
+## 📝 Documentation
+
+- repair tool workflow formatting ([7a86ab9](https://github.com/stacksjs/better-dx/commit/7a86ab9)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🔧 Chores
+
+- release v0.2.21 ([88957a6](https://github.com/stacksjs/better-dx/commit/88957a6)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update bumpx to 0.2.14 ([d28ecfe](https://github.com/stacksjs/better-dx/commit/d28ecfe)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update development toolchain ([2e25562](https://github.com/stacksjs/better-dx/commit/2e25562)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.19...v0.2.20)
 
 ## 🧹 Chores
