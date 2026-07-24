@@ -5,20 +5,20 @@
     "": {
       "name": "better-dx",
       "dependencies": {
-        "@stacksjs/bumpx": "latest",
-        "@stacksjs/bunpress": "latest",
-        "@stacksjs/clapp": "latest",
-        "@stacksjs/clarity": "latest",
-        "@stacksjs/gitlint": "latest",
-        "@stacksjs/logsmith": "latest",
-        "@types/bun": "latest",
-        "buddy-bot": "latest",
-        "bun-git-hooks": "latest",
-        "bun-plugin-dtsx": "latest",
-        "bunfig": "latest",
-        "pickier": "latest",
-        "ts-error-handling": "latest",
-        "typescript": "latest",
+        "@stacksjs/bumpx": "^0.2.14",
+        "@stacksjs/bunpress": "^0.1.20",
+        "@stacksjs/clapp": "^0.2.12",
+        "@stacksjs/clarity": "^0.3.31",
+        "@stacksjs/gitlint": "^0.1.7",
+        "@stacksjs/logsmith": "^0.2.6",
+        "@types/bun": "^1.3.14",
+        "buddy-bot": "^0.9.23",
+        "bun-git-hooks": "^0.3.2",
+        "bun-plugin-dtsx": "^0.11.1",
+        "bunfig": "^0.15.15",
+        "pickier": "^0.1.40",
+        "ts-error-handling": "^0.1.3",
+        "typescript": "^7.0.2",
       },
     },
   },
@@ -32,7 +32,7 @@
 
     "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "", {}, "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="],
 
-    "@stacksjs/bumpx": ["@stacksjs/bumpx@0.2.13", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0", "@stacksjs/logsmith": "^0.2.6", "bunfig": "^0.15.6" }, "bin": { "bumpx": "./dist/bin/cli.js" } }, "sha512-CzGPK23F2pxGKidPHs7PxMCcEb0fJtVF6HbioB1HDq9AIAitPO4neE/jFlJ3Zs1yyJoBl/zdqsDhRMmENwP4LQ=="],
+    "@stacksjs/bumpx": ["@stacksjs/bumpx@0.2.14", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0", "@stacksjs/logsmith": "^0.2.6", "bunfig": "^0.15.6" }, "bin": { "bumpx": "./dist/bin/cli.js" } }, "sha512-oXmnW19QEjCGaa4VCCnlMgPSNd7uuFes/A5zBKYHDvCvwGAPuhhg3M3hYDvIAe+jOh2Te1yFs9IfvG84kQmBBg=="],
 
     "@stacksjs/bunpress": ["@stacksjs/bunpress@0.1.20", "", { "dependencies": { "@stacksjs/stx": "^0.2.82", "@stacksjs/ts-cloud": "^0.7.51", "@stacksjs/ts-md": "^0.1.1", "bunfig": "^0.15.6" }, "bin": { "bunpress": "./dist/bin/cli.js" } }, "sha512-cs9Q9rmmdPPQM1Ji+9LO7EpoL/vFbFMsZ5WsUeWKEVUQ77uDl4zAHvUpxK5eIyuFW8RCmTkpPvDpH2xtCCkhog=="],
 
