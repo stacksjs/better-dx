@@ -2,6 +2,8 @@
 title: Workflow Integration
 description: Integrate better-dx tools into your development and CI/CD workflows.
 ---
+
+```yaml
           files: |
             dist/*
         env:
@@ -210,9 +212,7 @@ updates:
       interval: weekly
     commit-message:
       prefix: "chore(deps)"
-    labels:
-
-      - dependencies
+    labels: [dependencies]
 
 ```
 

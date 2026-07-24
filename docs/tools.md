@@ -3,6 +3,7 @@ title: Included Tools
 description: Overview of all development tools included in better-dx.
 ---
 
+```bash
 bunx logsmith --verbose
 
 # Generate since specific tag
