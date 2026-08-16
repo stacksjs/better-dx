@@ -1,3 +1,18 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.22...v0.2.23)
+
+## 📝 Documentation
+
+- link the community as stacksjs.com/discord ([17d25b5](https://github.com/stacksjs/better-dx/commit/17d25b5)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🔧 Chores
+
+- release v0.2.23 ([c1909fc](https://github.com/stacksjs/better-dx/commit/c1909fc)) _(by Chris <chris@stacksjs.com>)_
+- **deps**: update buddy-bot to 0.10.3 ([b0cd8de](https://github.com/stacksjs/better-dx/commit/b0cd8de)) _(by Chris <chris@stacksjs.com>)_
+
+## Contributors
+
+- _Chris <chris@stacksjs.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.21...v0.2.22)
 
 ## 🔧 Chores
