@@ -1,3 +1,18 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.23...v0.2.24)
+
+## 🐛 Bug Fixes
+
+- **deps**: take buddy-bot 0.10.5, where the Anthropic SDK is an optional peer ([1ace3bb](https://github.com/stacksjs/better-dx/commit/1ace3bb)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: take bunpress 0.2, where ts-cloud is an optional peer ([69c2661](https://github.com/stacksjs/better-dx/commit/69c2661)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🔧 Chores
+
+- release v0.2.24 ([e3447df](https://github.com/stacksjs/better-dx/commit/e3447df)) _(by Chris <chris@stacksjs.com>)_
+
+## Contributors
+
+- _Chris <chris@stacksjs.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.22...v0.2.23)
 
 ## 📝 Documentation
