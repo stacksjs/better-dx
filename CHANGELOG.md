@@ -1,3 +1,18 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.24...v0.2.25)
+
+## ⚡ Performance Improvements
+
+- **build**: cut the waste out of the published output ([c211e2a](https://github.com/stacksjs/better-dx/commit/c211e2a)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🔧 Chores
+
+- release v0.2.25 ([b409848](https://github.com/stacksjs/better-dx/commit/b409848)) _(by Chris <chris@stacksjs.com>)_
+- **deps**: refresh the lockfile ([e3506ff](https://github.com/stacksjs/better-dx/commit/e3506ff)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chris@stacksjs.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.23...v0.2.24)
 
 ## 🐛 Bug Fixes
