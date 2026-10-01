@@ -91,7 +91,7 @@ if (result.ok) {
 
 ## AI Assistant
 
-### buddy-bot
+### @buddysh/buddy
 
 AI-powered development assistant.
 
