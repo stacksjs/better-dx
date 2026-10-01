@@ -18,7 +18,7 @@ A single dev dependency that bundles all essential development tooling for Stack
 
 ## Dependencies
 
-- **buddy-bot** handles dependency updates — not renovatebot
+- **@buddysh/buddy** (formerly `buddy-bot`) handles dependency updates — not renovatebot
 - **better-dx** provides shared dev tooling as peer dependencies — do not install its peers (e.g., `typescript`, `pickier`, `bun-plugin-dtsx`) separately if `better-dx` is already in `package.json`
 - If `better-dx` is in `package.json`, ensure `bunfig.toml` includes `linker = "hoisted"`
 
