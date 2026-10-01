@@ -1,3 +1,23 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.25...v0.2.26)
+
+## 🐛 Bug Fixes
+
+- **deps**: move from buddy-bot to @buddysh/buddy (#966) ([10a9950](https://github.com/stacksjs/better-dx/commit/10a9950)) _(by Glenn Michael Torregosa <gtorregosa@gmail.com>)_ ([#966](https://github.com/stacksjs/better-dx/issues/966), [#966](https://github.com/stacksjs/better-dx/issues/966), [#1453](https://github.com/stacksjs/better-dx/issues/1453))
+
+## 🔧 Chores
+
+- release v0.2.26 ([d46f7c3](https://github.com/stacksjs/better-dx/commit/d46f7c3)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- run @stacksjs/logsmith, not the unrelated npm 'logsmith' ([a59fd8e](https://github.com/stacksjs/better-dx/commit/a59fd8e)) _(by Chris <chrisbreuer93@gmail.com>)_
+- release through @stacksjs/bumpx, not the unrelated npm 'bumpx' ([9f60774](https://github.com/stacksjs/better-dx/commit/9f60774)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: dtsx 0.11.10 ([c64461d](https://github.com/stacksjs/better-dx/commit/c64461d)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: dtsx 0.11.8, for declarations that parse ([34f67fb](https://github.com/stacksjs/better-dx/commit/34f67fb)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _Glenn Michael Torregosa <gtorregosa@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.24...v0.2.25)
 
 ## ⚡ Performance Improvements
