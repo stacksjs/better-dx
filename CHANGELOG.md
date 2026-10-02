@@ -1,3 +1,17 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.27...v0.2.28)
+
+## 🐛 Bug Fixes
+
+- **deps**: require @buddysh/buddy 0.11.5, which regenerates pantry.lock ([22f1c4c](https://github.com/stacksjs/better-dx/commit/22f1c4c)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#2848](https://github.com/stacksjs/better-dx/issues/2848))
+
+## 🔧 Chores
+
+- release v0.2.28 ([bae352f](https://github.com/stacksjs/better-dx/commit/bae352f)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.26...v0.2.27)
 
 ## 🐛 Bug Fixes
