@@ -1,3 +1,17 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.31...v0.2.32)
+
+## 🐛 Bug Fixes
+
+- **deps**: require @buddysh/buddy 0.11.9 ([1cc8a8c](https://github.com/stacksjs/better-dx/commit/1cc8a8c)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🔧 Chores
+
+- release v0.2.32 ([2fe9601](https://github.com/stacksjs/better-dx/commit/2fe9601)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.30...v0.2.31)
 
 ## 🐛 Bug Fixes
