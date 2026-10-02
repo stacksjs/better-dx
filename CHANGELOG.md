@@ -1,3 +1,20 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.26...v0.2.27)
+
+## 🐛 Bug Fixes
+
+- **deps**: require @buddysh/buddy 0.11.4, which reads buddy-bot configs ([4c7410c](https://github.com/stacksjs/better-dx/commit/4c7410c)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#1457](https://github.com/stacksjs/better-dx/issues/1457))
+- **scripts**: release:patch never tagged, so it never published (#968) ([92374d8](https://github.com/stacksjs/better-dx/commit/92374d8)) _(by Glenn Michael Torregosa <gtorregosa@gmail.com>)_ ([#968](https://github.com/stacksjs/better-dx/issues/968), [#968](https://github.com/stacksjs/better-dx/issues/968))
+
+## 🔧 Chores
+
+- release v0.2.27 ([50341a3](https://github.com/stacksjs/better-dx/commit/50341a3)) _(by Chris <chrisbreuer93@gmail.com>)_
+- point buddy config at better-dx, alias publish:patch (#969) ([6aa6bd6](https://github.com/stacksjs/better-dx/commit/6aa6bd6)) _(by Glenn Michael Torregosa <gtorregosa@gmail.com>)_ ([#969](https://github.com/stacksjs/better-dx/issues/969), [#969](https://github.com/stacksjs/better-dx/issues/969))
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _Glenn Michael Torregosa <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.25...v0.2.26)
 
 ## 🐛 Bug Fixes
