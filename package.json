@@ -70,7 +70,7 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "dependencies": {
-    "@buddysh/buddy": "^0.11.6",
+    "@buddysh/buddy": "^0.11.7",
     "@stacksjs/bumpx": "^0.2.14",
     "@stacksjs/bunpress": "^0.2.8",
     "@stacksjs/clapp": "^0.2.12",
