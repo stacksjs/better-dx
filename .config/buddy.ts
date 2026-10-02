@@ -3,7 +3,7 @@ import type { BuddyConfig } from '@buddysh/buddy'
 const config: BuddyConfig = {
   repository: {
     owner: 'stacksjs',
-    name: 'development',
+    name: 'better-dx',
     provider: 'github',
     // token: process.env.BUDDY_BOT_TOKEN,
   },
