@@ -5,7 +5,7 @@
     "": {
       "name": "better-dx",
       "dependencies": {
-        "@buddysh/buddy": "^0.11.11",
+        "@buddysh/buddy": "^0.11.12",
         "@stacksjs/bumpx": "^0.2.14",
         "@stacksjs/bunpress": "^0.2.8",
         "@stacksjs/clapp": "^0.2.12",
@@ -26,7 +26,7 @@
     "typescript": "^7.0.2",
   },
   "packages": {
-    "@buddysh/buddy": ["@buddysh/buddy@0.11.11", "", { "dependencies": { "prompts": "^2.4.2", "ts-pantry": "^0.11.64" }, "peerDependencies": { "@anthropic-ai/sdk": ">=0.117.1 <0.123.0" }, "optionalPeers": ["@anthropic-ai/sdk"], "bin": { "buddy": "./dist/bin/cli.js" } }, "sha512-4XtN2MkWlQyfdvxzSlW6+uUSljA/xletW+Cd9y04PoV2KcMj0fomnEOYFPYBKCdy1K5v3di0BDFCtCwRKnUXUA=="],
+    "@buddysh/buddy": ["@buddysh/buddy@0.11.12", "", { "dependencies": { "prompts": "^2.4.2", "ts-pantry": "^0.11.64" }, "peerDependencies": { "@anthropic-ai/sdk": ">=0.117.1 <0.123.0" }, "optionalPeers": ["@anthropic-ai/sdk"], "bin": { "buddy": "./dist/bin/cli.js" } }, "sha512-82ELRm1cBAX6QjMOR/d7ioWQCy20ll9ziIltMjhuC4vi+ts2D/PAs0LaJJGMyzMRErR+oNgHk8vGnwa5w/tHhw=="],
 
     "@cwcss/crosswind": ["@cwcss/crosswind@0.2.16", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0", "bunfig": "^0.15.17" }, "bin": { "crosswind": "./dist/cli.js" } }, "sha512-QgSTpcnt1seUQF2++taD5wk/H1lE3wSaybd+i9iP/syQTB2w/v2aM2U9SzYYe2ZcHA3Uxa1Sn/YvhcmHeFfuCA=="],
 
