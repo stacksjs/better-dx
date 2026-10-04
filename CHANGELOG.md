@@ -1,3 +1,17 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.36...v0.2.37)
+
+## 🐛 Bug Fixes
+
+- **deps**: require pickier 0.1.67 ([34aa627](https://github.com/stacksjs/better-dx/commit/34aa627)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#1377](https://github.com/stacksjs/better-dx/issues/1377))
+
+## 🔧 Chores
+
+- release v0.2.37 ([90c92ce](https://github.com/stacksjs/better-dx/commit/90c92ce)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.35...v0.2.36)
 
 ## 🐛 Bug Fixes
