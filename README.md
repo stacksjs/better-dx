@@ -8,6 +8,11 @@
 
 # better-dx
 
+TypeScript is pinned to `7.1.0-dev.20261011.1`: its native compiler uses Go
+1.27.2. The stable 7.0.2 compiler bundles Go 1.26.4, which is affected by
+GO-2026-6604 and GO-2026-6612. Keep the compiler pin until a stable TypeScript
+release includes the patched Go runtime.
+
 All the development dependencies you need.
 
 ## Features
