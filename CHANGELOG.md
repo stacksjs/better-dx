@@ -1,3 +1,18 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.37...v0.2.38)
+
+## 🐛 Bug Fixes
+
+- **deps**: use the compiler with patched Go runtime ([5565706](https://github.com/stacksjs/better-dx/commit/5565706)) _(by Chris <chris@stacksjs.com>)_
+
+## 🔧 Chores
+
+- release v0.2.38 ([4e9068d](https://github.com/stacksjs/better-dx/commit/4e9068d)) _(by Chris <chris@stacksjs.com>)_
+- rebuild the shared tooling CLI ([6a313e3](https://github.com/stacksjs/better-dx/commit/6a313e3)) _(by Chris <chris@stacksjs.com>)_
+
+## Contributors
+
+- _Chris <chris@stacksjs.com>_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.36...v0.2.37)
 
 ## 🐛 Bug Fixes
