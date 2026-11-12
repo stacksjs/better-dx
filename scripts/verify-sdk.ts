@@ -7,11 +7,13 @@ import { gunzipSync } from 'node:zlib'
 
 const root = resolve(import.meta.dir, '..')
 const owner = JSON.parse(await readFile(join(root, 'package.json'), 'utf8'))
+const publicPackage = process.env.BETTER_DX_SDK_PUBLIC_PACKAGE
+const expectedArchive = process.env.BETTER_DX_SDK_EXPECTED_ARCHIVE
 const evidenceRoot = process.env.BETTER_DX_SDK_EVIDENCE ?? tmpdir()
 await mkdir(evidenceRoot, { recursive: true })
 const evidence = await mkdtemp(join(evidenceRoot, 'better-dx-sdk-'))
 const commands: Array<Record<string, unknown>> = []
-const receipt = { kind: 'normally packed candidate SDK; not public release acceptance', status: 'FAIL', version: owner.version, evidence, commands, installations: [] as Array<Record<string, unknown>> }
+const receipt = { kind: publicPackage ? 'actual public package SDK verification' : 'normally packed candidate SDK; not public release acceptance', packageInput: publicPackage ?? 'normal source pack', expectedOriginalArchive: expectedArchive ?? null, status: 'FAIL', version: owner.version, evidence, commands, installations: [] as Array<Record<string, unknown>> }
 const hash = (bytes: Uint8Array): string => new Bun.CryptoHasher('sha256').update(bytes).digest('hex')
 
 async function run(args: string[], cwd: string, success = true): Promise<string> {
@@ -70,14 +72,29 @@ async function packageAt(name: string, from: string): Promise<{ path: string, ma
 try {
   assert.equal(owner.dependencies.typescript, '7.1.0-dev.20261011.1')
   assert.equal(owner.overrides.typescript, owner.dependencies.typescript)
-  for (const name of ['index', 'config', 'types']) {
-    assert(existsSync(join(root, `dist/${name}.js`)), `Build the final runtime entry ${name} first`)
-    assert(existsSync(join(root, `dist/${name}.d.ts`)), `Build the final declaration entry ${name} first`)
-  }
   const archive = join(evidence, 'better-dx.tgz')
-  await run([process.execPath, 'pm', 'pack', '--filename', archive], root)
+  if (publicPackage) {
+    assert.equal(new URL(publicPackage).protocol, 'https:')
+    assert(expectedArchive, 'Public acceptance requires the original final CI archive')
+    const response = await fetch(publicPackage, { signal: AbortSignal.timeout(120_000) })
+    assert(response.ok, `Cannot read the public package: ${response.status}`)
+    await writeFile(archive, new Uint8Array(await response.arrayBuffer()))
+  }
+  else {
+    for (const name of ['index', 'config', 'types']) {
+      assert(existsSync(join(root, `dist/${name}.js`)), `Build the final runtime entry ${name} first`)
+      assert(existsSync(join(root, `dist/${name}.d.ts`)), `Build the final declaration entry ${name} first`)
+    }
+    await run([process.execPath, 'pm', 'pack', '--filename', archive], root)
+  }
   const original = await readFile(archive)
   const inventory = members(original)
+  if (publicPackage) {
+    const fingerprint = (items: Member[]) => items.map(member => ({ path: member.path, mode: member.mode, sha256: hash(member.bytes) })).sort((left, right) => left.path.localeCompare(right.path))
+    const expected = await readFile(expectedArchive!)
+    assert.deepEqual(fingerprint(inventory), fingerprint(members(expected)), 'Every public member name, byte and mode must match the original final CI archive')
+    await writeFile(join(evidence, 'original-ci-sha256.txt'), `${hash(expected)}\n`)
+  }
   const runtimeFiles = new Map(inventory.filter(member => member.path.endsWith('.js')).map(member => [member.path, member]))
   const reached = new Set<string>()
   const pending = ['dist/index.js', 'dist/config.js', 'dist/types.js']
@@ -97,7 +114,7 @@ try {
   await writeFile(join(evidence, 'archive-sha256.txt'), `${hash(original)}\n`)
   const consumer = join(evidence, 'consumer')
   await mkdir(consumer)
-  await writeFile(join(consumer, 'package.json'), JSON.stringify({ name: 'better-dx-sdk-contract', private: true, type: 'module', dependencies: { 'better-dx': `file:${archive}` }, devDependencies: { typescript: owner.dependencies.typescript } }, null, 2))
+  await writeFile(join(consumer, 'package.json'), JSON.stringify({ name: 'better-dx-sdk-contract', private: true, type: 'module', dependencies: { 'better-dx': publicPackage ?? `file:${archive}` }, devDependencies: { typescript: owner.dependencies.typescript } }, null, 2))
   await writeFile(join(consumer, 'development.config.ts'), 'export default { verbose: false }\n')
   await writeFile(join(consumer, 'runtime.ts'), `import assert from 'node:assert/strict'
 import * as root from 'better-dx'

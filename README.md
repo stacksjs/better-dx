@@ -57,6 +57,8 @@ bun run test:sdk
 
 The SDK check packs the built package, checks normal and fresh frozen installs, and verifies runtime subpaths, strict typed consumers and the bundled release/declaration tools.
 
+To verify a published package, set `BETTER_DX_SDK_PUBLIC_PACKAGE` to its HTTPS package URL and `BETTER_DX_SDK_EXPECTED_ARCHIVE` to the original final CI archive. The check compares every original member's name, bytes and mode, then installs from the public URL without repacking it.
+
 ## Changelog
 
 Please see our [releases](https://github.com/stackjs/better-dx/releases) page for more information on what has changed recently.
