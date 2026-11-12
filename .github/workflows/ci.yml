@@ -20,8 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2.2.0
+      - name: Setup Pantry
+        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        with:
+          version: 0.11.199
 
       - name: Use cached node_modules
         uses: actions/cache@v5.0.4
@@ -32,7 +34,7 @@ jobs:
             node-modules-
 
       - name: Install Dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Lint
         run: bun run lint
@@ -43,8 +45,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2.2.0
+      - name: Setup Pantry
+        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        with:
+          version: 0.11.199
 
       - name: Use cached node_modules
         uses: actions/cache@v5.0.4
@@ -55,7 +59,7 @@ jobs:
             node-modules-
 
       - name: Install Dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Typecheck
         run: bun --bun run typecheck
@@ -66,8 +70,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2.2.0
+      - name: Setup Pantry
+        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        with:
+          version: 0.11.199
 
       - name: Use cached node_modules
         uses: actions/cache@v5.0.4
@@ -78,13 +84,40 @@ jobs:
             node-modules-
 
       - name: Install Dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Unit Test
         run: bun test
 
+  sdk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Setup Pantry
+        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        with:
+          version: 0.11.199
+      - name: Install committed dependencies
+        run: bun install --frozen-lockfile
+      - name: Build library and CLI
+        run: bun run build
+      - name: Verify normally packed SDK and bundled tools
+        id: sdk
+        run: bun run test:sdk
+        env:
+          BETTER_DX_SDK_EVIDENCE: ${{ runner.temp }}/better-dx-sdk
+      - name: Retain original SDK and consumer evidence
+        if: always() && steps.sdk.outcome != 'skipped'
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: better-dx-sdk
+          path: |
+            ${{ runner.temp }}/better-dx-sdk/**
+            !${{ runner.temp }}/better-dx-sdk/**/node_modules/**
+          if-no-files-found: error
+
   publish-commit:
-    needs: [lint, typecheck, test]
+    needs: [lint, typecheck, test, sdk]
     runs-on: ubuntu-latest
 
     steps:
@@ -93,13 +126,31 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Pantry
-        uses: home-lang/pantry/packages/action@v0.9.18
+        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        with:
+          version: 0.11.199
 
       - name: Install Dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Build
         run: bun run build
+
+      - name: Verify the final commit SDK and bundled tools
+        id: sdk
+        run: bun run test:sdk
+        env:
+          BETTER_DX_SDK_EVIDENCE: ${{ runner.temp }}/better-dx-sdk
+
+      - name: Retain original commit SDK and consumer evidence
+        if: always() && steps.sdk.outcome != 'skipped'
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: better-dx-commit-sdk
+          path: |
+            ${{ runner.temp }}/better-dx-sdk/**
+            !${{ runner.temp }}/better-dx-sdk/**/node_modules/**
+          if-no-files-found: error
 
       - name: Publish Commit
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

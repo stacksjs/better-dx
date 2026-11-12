@@ -35,11 +35,27 @@ npm install -D better-dx
 
 And this sets up your project!
 
+## Configuration
+
+```ts
+import { getConfig } from 'better-dx/config'
+import type { DXConfig } from 'better-dx/types'
+
+const config: DXConfig = await getConfig()
+console.log(config.verbose)
+```
+
+The root `better-dx` entry exports the same configuration API and shares its cached configuration with `better-dx/config`.
+
 ## Testing
 
 ```bash
 bun test
+bun run build
+bun run test:sdk
 ```
+
+The SDK check packs the built package, checks normal and fresh frozen installs, and verifies runtime subpaths, strict typed consumers and the bundled release/declaration tools.
 
 ## Changelog
 

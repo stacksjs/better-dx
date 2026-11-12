@@ -20,13 +20,34 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Pantry
-        uses: home-lang/pantry/packages/action@v0.9.18
+        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        with:
+          version: 0.11.199
 
       - name: Install Dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
+
+      - name: Assemble final library and every native release binary
+        run: bun run prepublishOnly
+
+      - name: Verify final normally packed SDK and bundled tools
+        id: sdk
+        run: bun run test:sdk
+        env:
+          BETTER_DX_SDK_EVIDENCE: ${{ runner.temp }}/better-dx-sdk
+
+      - name: Retain original qualified SDK and consumer evidence
+        if: always() && steps.sdk.outcome != 'skipped'
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: better-dx-release-sdk
+          path: |
+            ${{ runner.temp }}/better-dx-sdk/**
+            !${{ runner.temp }}/better-dx-sdk/**/node_modules/**
+          if-no-files-found: error
 
       - name: Publish
-        run: pantry publish --npm --access public
+        run: pantry publish --npm --access public --ignore-scripts
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
