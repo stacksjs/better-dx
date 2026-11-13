@@ -1,3 +1,22 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.38...v0.2.39)
+
+## 🐛 Bug Fixes
+
+- raise the shared declaration producer floor to 0.11.55 ([ebe5fc4](https://github.com/stacksjs/better-dx/commit/ebe5fc4)) _(by Chris Breuer)_ ([#970](https://github.com/stacksjs/better-dx/issues/970), [#971](https://github.com/stacksjs/better-dx/issues/971))
+- ship typed SDK subpaths and verify bundled tools ([d490f87](https://github.com/stacksjs/better-dx/commit/d490f87)) _(by Chris Breuer)_ ([#970](https://github.com/stacksjs/better-dx/issues/970), [#971](https://github.com/stacksjs/better-dx/issues/971), [stacksjs/dtsx#3139](https://github.com/stacksjs/dtsx/issues/3139))
+
+## ✅ Tests
+
+- verify public SDKs against original CI archives ([23b9d0b](https://github.com/stacksjs/better-dx/commit/23b9d0b)) _(by Chris Breuer)_ ([#970](https://github.com/stacksjs/better-dx/issues/970), [#971](https://github.com/stacksjs/better-dx/issues/971))
+
+## 🔧 Chores
+
+- **deps**: update shared development tools and managed CI ([9499d5b](https://github.com/stacksjs/better-dx/commit/9499d5b)) _(by Chris Breuer)_ ([#960](https://github.com/stacksjs/better-dx/issues/960), [#970](https://github.com/stacksjs/better-dx/issues/970), [#971](https://github.com/stacksjs/better-dx/issues/971))
+
+## Contributors
+
+- _Chris Breuer_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.37...v0.2.38)
 
 ## 🐛 Bug Fixes
