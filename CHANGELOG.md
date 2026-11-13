@@ -1,3 +1,13 @@
+[Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.39...v0.2.40)
+
+## 🐛 Bug Fixes
+
+- **tools**: require the qualified Pickier wrapped-span fix ([7086585](https://github.com/stacksjs/better-dx/commit/7086585)) _(by Chris Breuer)_ ([#970](https://github.com/stacksjs/better-dx/issues/970), [pickier/pickier#1419](https://github.com/pickier/pickier/issues/1419))
+
+## Contributors
+
+- _Chris Breuer_
+
 [Compare changes](https://github.com/stacksjs/better-dx/compare/v0.2.38...v0.2.39)
 
 ## 🐛 Bug Fixes
