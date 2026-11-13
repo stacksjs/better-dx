@@ -163,7 +163,7 @@ void [value, other, same, asynchronous]
     const core = await packageAt('@dtsx/dtsx', plugin.path)
     const bumpx = await packageAt('@stacksjs/bumpx', installed.path)
     const compiler = await packageAt('typescript', consumer)
-    assert(Bun.semver.satisfies(plugin.manifest.version, '>=0.11.53'))
+    assert(Bun.semver.satisfies(plugin.manifest.version, '>=0.11.55'))
     assert.equal(core.manifest.version, plugin.manifest.version)
     assert(Bun.semver.satisfies(bumpx.manifest.version, '>=0.2.35'))
     assert.equal(compiler.manifest.version, owner.dependencies.typescript)

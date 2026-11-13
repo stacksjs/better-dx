@@ -20,9 +20,9 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@ada000b82afec8e198f915bb2aafa6791fa01abd # v0.11.199
+        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
         with:
-          version: 0.11.199
+          version: 0.11.205
 
       - name: Install Dependencies
         run: bun install --frozen-lockfile
