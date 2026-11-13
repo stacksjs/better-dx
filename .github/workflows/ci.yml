@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Pantry
         uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
@@ -26,7 +26,7 @@ jobs:
           version: 0.11.205
 
       - name: Use cached node_modules
-        uses: actions/cache@v5.0.4
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('**/bun.lock') }}
@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Pantry
         uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
@@ -51,7 +51,7 @@ jobs:
           version: 0.11.205
 
       - name: Use cached node_modules
-        uses: actions/cache@v5.0.4
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('**/bun.lock') }}
@@ -68,7 +68,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Pantry
         uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
@@ -76,7 +76,7 @@ jobs:
           version: 0.11.205
 
       - name: Use cached node_modules
-        uses: actions/cache@v5.0.4
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('**/bun.lock') }}
@@ -92,7 +92,7 @@ jobs:
   sdk:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Setup Pantry
         uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
         with:
@@ -121,7 +121,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
 

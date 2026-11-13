@@ -162,13 +162,15 @@ void [value, other, same, asynchronous]
     const plugin = await packageAt('@dtsx/bun', installed.path)
     const core = await packageAt('@dtsx/dtsx', plugin.path)
     const bumpx = await packageAt('@stacksjs/bumpx', installed.path)
+    const pickier = await packageAt('pickier', installed.path)
     const compiler = await packageAt('typescript', consumer)
     assert(Bun.semver.satisfies(plugin.manifest.version, '>=0.11.55'))
     assert.equal(core.manifest.version, plugin.manifest.version)
     assert(Bun.semver.satisfies(bumpx.manifest.version, '>=0.2.35'))
+    assert(Bun.semver.satisfies(pickier.manifest.version, '>=0.1.93'))
     assert.equal(compiler.manifest.version, owner.dependencies.typescript)
     assert.equal(installed.manifest.dependencies['bun-plugin-dtsx'], undefined)
-    receipt.installations.push({ frozen, members: inventory.length, installedBytesAndModesEqual: true, plugin: plugin.manifest.version, core: core.manifest.version, bumpx: bumpx.manifest.version, typescript: compiler.manifest.version, lockSHA256: hash(new TextEncoder().encode(currentLock)) })
+    receipt.installations.push({ frozen, members: inventory.length, installedBytesAndModesEqual: true, plugin: plugin.manifest.version, core: core.manifest.version, bumpx: bumpx.manifest.version, pickier: pickier.manifest.version, typescript: compiler.manifest.version, lockSHA256: hash(new TextEncoder().encode(currentLock)) })
     await run([process.execPath, 'runtime.ts'], consumer)
     // Resolve from the owning bundle; keep all probes outside its payload.
     const resolvedBumpx = Bun.resolveSync('@stacksjs/bumpx', installed.path)
@@ -177,6 +179,12 @@ void [value, other, same, asynchronous]
     await mkdir(join(library, 'src'), { recursive: true })
     await writeFile(join(library, 'package.json'), '{"type":"module"}')
     await writeFile(join(library, 'src/index.ts'), 'export interface Options { count: number }\nexport const answer: Options = { count: 42 }\n')
+    const pickierBin = typeof pickier.manifest.bin === 'string' ? pickier.manifest.bin : pickier.manifest.bin.pickier
+    assert.equal(typeof pickierBin, 'string')
+    const pickierCommand = [process.execPath, join(pickier.path, pickierBin)]
+    const pickierVersion = await run([...pickierCommand, '--version'], consumer)
+    assert.equal(pickierVersion.trim().split(/\s+/)[0], `pickier/${pickier.manifest.version}`)
+    await run([...pickierCommand, join(library, 'src/index.ts')], consumer)
     await writeFile(join(consumer, 'tools.ts'), `import assert from 'node:assert/strict'\nimport { incrementVersion } from ${JSON.stringify(resolvedBumpx)}\nimport { dts } from ${JSON.stringify(resolvedPlugin)}\nassert.equal(incrementVersion('1.2.3', 'patch'), '1.2.4')\nconst result = await Bun.build({ entrypoints: [${JSON.stringify(join(library, 'src/index.ts'))}], outdir: ${JSON.stringify(join(library, 'dist'))}, target: 'node', plugins: [dts({ cwd: ${JSON.stringify(library)}, root: './src', outdir: './dist', moduleSpecifierMode: 'node' })] })\nassert(result.success, result.logs.map(log => log.message).join('\\n'))\nconsole.log('bundled Bumpx and declaration producer PASS')\n`)
     await run([process.execPath, 'tools.ts'], consumer)
     for (const folder of ['src', 'dist']) {
