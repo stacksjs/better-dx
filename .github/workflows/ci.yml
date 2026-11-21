@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@89b61b513ed45d7d4b3fe4345609aac69bf6101a # v0.11.213
         with:
           version: 0.11.205
 
@@ -46,7 +46,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@89b61b513ed45d7d4b3fe4345609aac69bf6101a # v0.11.213
         with:
           version: 0.11.205
 
@@ -71,7 +71,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@89b61b513ed45d7d4b3fe4345609aac69bf6101a # v0.11.213
         with:
           version: 0.11.205
 
@@ -94,7 +94,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@89b61b513ed45d7d4b3fe4345609aac69bf6101a # v0.11.213
         with:
           version: 0.11.205
       - name: Install committed dependencies
@@ -126,7 +126,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@89b61b513ed45d7d4b3fe4345609aac69bf6101a # v0.11.213
         with:
           version: 0.11.205
 
