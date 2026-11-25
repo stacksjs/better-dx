@@ -160,7 +160,7 @@ jobs:
           persist-credentials: true
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@b6c0496a304b5adadcefe6b1244b2b66e65af9ee # v0.11.231
         with:
           version: 0.11.205
 
@@ -200,7 +200,7 @@ jobs:
           persist-credentials: true
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@b6c0496a304b5adadcefe6b1244b2b66e65af9ee # v0.11.231
         with:
           version: 0.11.205
 
@@ -284,7 +284,7 @@ jobs:
           persist-credentials: true
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@b6c0496a304b5adadcefe6b1244b2b66e65af9ee # v0.11.231
         with:
           version: 0.11.205
 
@@ -394,7 +394,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Pantry
-        uses: pantry-pm/pantry/packages/action@c7a4512c54606c2b0940e9809cb3454a2cbdf4fa # v0.11.205
+        uses: pantry-pm/pantry/packages/action@b6c0496a304b5adadcefe6b1244b2b66e65af9ee # v0.11.231
         with:
           version: 0.11.205
 
