@@ -93,17 +93,19 @@ if (result.ok) {
 
 ### @buddysh/buddy
 
-AI-powered development assistant.
+Run the AI-powered development assistant by its package name. This keeps
+Stacks’ `buddy`, `bud`, and `stacks` commands available in projects that use
+better-dx. The dependency-update workflow uses the same scoped invocation.
 
 ```bash
 
 # Ask for help
 
-bunx buddy "How do I configure ESLint?"
+bunx @buddysh/buddy "How do I configure ESLint?"
 
 # Code review
 
-bunx buddy review ./src/index.ts
+bunx @buddysh/buddy review ./src/index.ts
 ```
 
 ## TypeScript

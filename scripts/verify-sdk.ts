@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { existsSync } from 'node:fs'
-import { mkdir, mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises'
+import { mkdir, mkdtemp, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { dirname, join, posix, resolve } from 'node:path'
 import { gunzipSync } from 'node:zlib'
@@ -115,6 +115,7 @@ try {
   const consumer = join(evidence, 'consumer')
   await mkdir(consumer)
   await writeFile(join(consumer, 'package.json'), JSON.stringify({ name: 'better-dx-sdk-contract', private: true, type: 'module', dependencies: { 'better-dx': publicPackage ?? `file:${archive}` }, devDependencies: { typescript: owner.dependencies.typescript } }, null, 2))
+  await writeFile(join(consumer, 'bunfig.toml'), 'linker = "hoisted"\n')
   await writeFile(join(consumer, 'development.config.ts'), 'export default { verbose: false }\n')
   await writeFile(join(consumer, 'runtime.ts'), `import assert from 'node:assert/strict'
 import * as root from 'better-dx'
@@ -154,6 +155,10 @@ void [value, other, same, asynchronous]
     else lock = currentLock
     const installed = await packageAt('better-dx', consumer)
     assert.equal(installed.manifest.version, owner.version)
+    const executables = await readdir(join(consumer, 'node_modules/.bin'))
+    for (const command of ['buddy', 'bud', 'stacks']) {
+      assert(!executables.includes(command), `better-dx must leave the ${command} executable available for Stacks`)
+    }
     for (const member of inventory) {
       const path = join(installed.path, member.path)
       assert.equal(hash(await readFile(path)), hash(member.bytes), member.path)
